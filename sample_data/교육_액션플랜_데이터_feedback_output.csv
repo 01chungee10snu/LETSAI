@@ -1,0 +1,1645 @@
+﻿participant_id,name,email,company,department,position,job_group,aspiration,action_plan,expected_behavior,training_comment,top_takeaway,manager_name,feedback_subject,feedback_message,feedback_next_action,feedback_tone_check,feedback_html,feedback_html_path,generation_status,generation_engine,generated_at
+P001,오세정,participant001@hrd-ai-demo.example.com,국가과학기술인력개발원,스마트교육실,부연구위원,스마트교육,반복 운영 업무를 줄이고 참가자 경험을 한 번에 표준 운영안으로 정착시키겠다,교육 안내 페이지를 단일 마이크로사이트로 재구성하고 FAQ를 표준화,"참가자가 일정, 준비물, 과제 안내를 스스로 확인해 반복 문의를 줄인다",FAQ와 안내 페이지를 분리하지 않고 한 흐름으로 설계한 부분이 특히 실무적이었다. 강의-시연-실습이 하나의 흐름으로 이어져 집중하기 쉬웠다. 현업 사례가 더 세분화되면 우리 조직에 옮겨 담기 쉬울 것 같다.,정확성이 중요한 정보는 챗봇보다 정적 페이지가 더 안정적이라는 점,한충석,현대제철 리더십 교육 F/U: 오세정 님,"오세정 님, 현대제철 리더십 교육 후 FAQ와 안내 페이지 통합 설계 아이디어를 실무에 적용하시는 것을 기대합니다. 단일 마이크로사이트 구성을 통해 참가자 경험을 표준화하시는 과정에서 추가로 필요한 도움이 있다면 언제든지 연락 주시기 바랍니다.","오세정 님은 교육 안내 페이지를 단일 마이크로사이트로 재구성하고 FAQ를 표준화하여 참가자가 일정, 준비물, 과제 안내를 스스로 확인할 수 있도록 준비합니다.",ok,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"" lang=""ko"">
+<head>
+  <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>현대제철 리더십 교육 F/U: 오세정 님</title>
+  <!--[if mso]>
+  <style type=""text/css"">
+    table { border-collapse: collapse; }
+    td { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <![endif]-->
+</head>
+<body style=""margin:0;padding:0;background-color:#eaf1f5;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.7;color:#0e2233;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;"">
+
+  <!-- Outer wrapper table for centering -->
+  <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#eaf1f5;"">
+    <tr>
+      <td align=""center"" style=""padding:40px 16px 50px 16px;"">
+
+        <!--[if mso]><table role=""presentation"" width=""680"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center""><tr><td><![endif]-->
+        <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width:680px;margin:0 auto;background-color:#ffffff;border:1px solid #d4e1e8;"">
+
+          <!-- ========== HEADER ========== -->
+          <tr>
+            <td style=""padding:34px 36px 24px 36px;background-color:#f3f9f8;border-bottom:2px solid #0d8f84;"">
+              <!-- Eyebrow badge -->
+              <table role=""presentation"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <td style=""background-color:#e6f4f2;padding:5px 14px;font-size:11px;font-weight:bold;color:#094d47;letter-spacing:0.08em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    &#9679;&nbsp; 현대제철 리더십 교육 F/U
+                  </td>
+                </tr>
+              </table>
+              <!-- Title -->
+              <h1 style=""margin:16px 0 8px 0;font-size:24px;font-weight:bold;line-height:1.35;color:#091e2f;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">현대제철 리더십 교육 F/U: 오세정 님</h1>
+              <!-- Recipient info -->
+              <p style=""margin:0;font-size:14px;line-height:1.7;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">오세정&#xB2D8; &middot; 국가과학기술인력개발원 스마트교육실 &middot; 부연구위원</p>
+            </td>
+          </tr>
+
+          <!-- ========== BODY ========== -->
+          <tr>
+            <td style=""padding:30px 36px 10px 36px;"">
+              <p style=""margin:0 0 18px 0;font-size:15px;font-weight:bold;color:#094d47;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">오세정&#xB2D8; &#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
+              <p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">오세정 님, 현대제철 리더십 교육 후 FAQ와 안내 페이지 통합 설계 아이디어를 실무에 적용하시는 것을 기대합니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">단일 마이크로사이트 구성을 통해 참가자 경험을 표준화하시는 과정에서 추가로 필요한 도움이 있다면 언제든지 연락 주시기 바랍니다.</p>
+            </td>
+          </tr>
+
+          <!-- ========== INFO CARDS (2x2 table) ========== -->
+          <tr>
+            <td style=""padding:0 36px 10px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <!-- Card 1: Action Plan -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xD575;&#xC2EC; &#xC2E4;&#xD589;&#xACC4;&#xD68D;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">교육 안내 페이지를 단일 마이크로사이트로 재구성하고 FAQ를 표준화</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 2: Expected Behavior -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAE30;&#xB300; &#xD589;&#xB3D9;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">참가자가 일정, 준비물, 과제 안내를 스스로 확인해 반복 문의를 줄인다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Card 3: Key Takeaway -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAD50;&#xC721; &#xD575;&#xC2EC; &#xD3EC;&#xC778;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">정확성이 중요한 정보는 챗봇보다 정적 페이지가 더 안정적이라는 점</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 4: Comment -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xCC38;&#xAC00;&#xC790; &#xCF54;&#xBA58;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">FAQ와 안내 페이지를 분리하지 않고 한 흐름으로 설계한 부분이 특히 실무적이었다. 강의-시연-실습이 하나의 흐름으로 이어져 집중하기 쉬웠다. 현업 사례가 더 세분화되면 우리 조직에 옮겨 담기 쉬울 것 같다.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== NEXT ACTION ========== -->
+          <tr>
+            <td style=""padding:6px 36px 20px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#0d8f84;"">
+                <tr>
+                  <td style=""padding:20px 24px;"">
+                    <p style=""margin:0 0 6px 0;font-size:11px;font-weight:bold;letter-spacing:0.1em;color:#b8e6e0;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">NEXT ACTION</p>
+                    <p style=""margin:0;font-size:16px;line-height:1.8;font-weight:bold;color:#ffffff;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">오세정 님은 교육 안내 페이지를 단일 마이크로사이트로 재구성하고 FAQ를 표준화하여 참가자가 일정, 준비물, 과제 안내를 스스로 확인할 수 있도록 준비합니다.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== SIGNATURE ========== -->
+          <tr>
+            <td style=""padding:0 36px 36px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""border-top:1px solid #dae4ec;"">
+                <tr>
+                  <td style=""padding:20px 0 0 0;font-size:13px;line-height:1.9;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    감사합니다.<br />
+                    한충석<br />
+                    현대제철 컬처디자인팀
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+",sample_data\교육_액션플랜_데이터_feedback_output_html_preview\001_오세정.html,completed,glm-4.5-air,2026-04-17T14:28:11
+P002,이현호,participant002@hrd-ai-demo.example.com,대동,인사교육총무팀(교육),차장,HRD,교육 직후의 의지를 사라지지 않게 만들고 실행 전환율을 팀 차원의 실행 체계로 만들겠다,교육 종료 후 2주 단위 액션플랜 체크인 메시지를 자동화,수강자가 교육 직후 세운 계획을 잊지 않고 팀 내 공유까지 이어가게 한다,개인화 메시지를 자동화하되 사람 검수를 남기는 구조가 설득력 있었다. 현업에 바로 가져갈 산출물이 분명해서 만족도가 높았다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.,초안 자동화 후 사람이 톤을 통제하는 방식이 현실적이라는 점,박서윤,"[현대제철 리더십 교육] 이현호 차장님, 학습 실행을 위한 다음 단계 안내","이현호 차장님, 현대제철 리더십 교육에서 구체화하신 실행 계획이 팀 차원의 실천 체계로 이어지길 기대합니다. 2주 단위 체크인 메시지를 통해 지속적으로 실행 성과를 점검하고 팀 내 공유를 이어가시길 당부드립니다. 컬처디자인팀 박서윤 드림.",수강자는 2주 단위로 자동 발송되는 체크인 메시지를 확인하며 교육 내용을 실행 계획과 연결,ok,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"" lang=""ko"">
+<head>
+  <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>[현대제철 리더십 교육] 이현호 차장님, 학습 실행을 위한 다음 단계 안내</title>
+  <!--[if mso]>
+  <style type=""text/css"">
+    table { border-collapse: collapse; }
+    td { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <![endif]-->
+</head>
+<body style=""margin:0;padding:0;background-color:#eaf1f5;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.7;color:#0e2233;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;"">
+
+  <!-- Outer wrapper table for centering -->
+  <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#eaf1f5;"">
+    <tr>
+      <td align=""center"" style=""padding:40px 16px 50px 16px;"">
+
+        <!--[if mso]><table role=""presentation"" width=""680"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center""><tr><td><![endif]-->
+        <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width:680px;margin:0 auto;background-color:#ffffff;border:1px solid #d4e1e8;"">
+
+          <!-- ========== HEADER ========== -->
+          <tr>
+            <td style=""padding:34px 36px 24px 36px;background-color:#f3f9f8;border-bottom:2px solid #0d8f84;"">
+              <!-- Eyebrow badge -->
+              <table role=""presentation"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <td style=""background-color:#e6f4f2;padding:5px 14px;font-size:11px;font-weight:bold;color:#094d47;letter-spacing:0.08em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    &#9679;&nbsp; 현대제철 리더십 교육 F/U
+                  </td>
+                </tr>
+              </table>
+              <!-- Title -->
+              <h1 style=""margin:16px 0 8px 0;font-size:24px;font-weight:bold;line-height:1.35;color:#091e2f;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">[현대제철 리더십 교육] 이현호 차장님, 학습 실행을 위한 다음 단계 안내</h1>
+              <!-- Recipient info -->
+              <p style=""margin:0;font-size:14px;line-height:1.7;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">이현호&#xB2D8; &middot; 대동 인사교육총무팀(교육) &middot; 차장</p>
+            </td>
+          </tr>
+
+          <!-- ========== BODY ========== -->
+          <tr>
+            <td style=""padding:30px 36px 10px 36px;"">
+              <p style=""margin:0 0 18px 0;font-size:15px;font-weight:bold;color:#094d47;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">이현호&#xB2D8; &#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
+              <p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">이현호 차장님, 현대제철 리더십 교육에서 구체화하신 실행 계획이 팀 차원의 실천 체계로 이어지길 기대합니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">2주 단위 체크인 메시지를 통해 지속적으로 실행 성과를 점검하고 팀 내 공유를 이어가시길 당부드립니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">컬처디자인팀 박서윤 드림.</p>
+            </td>
+          </tr>
+
+          <!-- ========== INFO CARDS (2x2 table) ========== -->
+          <tr>
+            <td style=""padding:0 36px 10px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <!-- Card 1: Action Plan -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xD575;&#xC2EC; &#xC2E4;&#xD589;&#xACC4;&#xD68D;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">교육 종료 후 2주 단위 액션플랜 체크인 메시지를 자동화</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 2: Expected Behavior -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAE30;&#xB300; &#xD589;&#xB3D9;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">수강자가 교육 직후 세운 계획을 잊지 않고 팀 내 공유까지 이어가게 한다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Card 3: Key Takeaway -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAD50;&#xC721; &#xD575;&#xC2EC; &#xD3EC;&#xC778;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">초안 자동화 후 사람이 톤을 통제하는 방식이 현실적이라는 점</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 4: Comment -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xCC38;&#xAC00;&#xC790; &#xCF54;&#xBA58;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">개인화 메시지를 자동화하되 사람 검수를 남기는 구조가 설득력 있었다. 현업에 바로 가져갈 산출물이 분명해서 만족도가 높았다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== NEXT ACTION ========== -->
+          <tr>
+            <td style=""padding:6px 36px 20px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#0d8f84;"">
+                <tr>
+                  <td style=""padding:20px 24px;"">
+                    <p style=""margin:0 0 6px 0;font-size:11px;font-weight:bold;letter-spacing:0.1em;color:#b8e6e0;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">NEXT ACTION</p>
+                    <p style=""margin:0;font-size:16px;line-height:1.8;font-weight:bold;color:#ffffff;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">수강자는 2주 단위로 자동 발송되는 체크인 메시지를 확인하며 교육 내용을 실행 계획과 연결</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== SIGNATURE ========== -->
+          <tr>
+            <td style=""padding:0 36px 36px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""border-top:1px solid #dae4ec;"">
+                <tr>
+                  <td style=""padding:20px 0 0 0;font-size:13px;line-height:1.9;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    감사합니다.<br />
+                    박서윤<br />
+                    현대제철 컬처디자인팀
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+",sample_data\교육_액션플랜_데이터_feedback_output_html_preview\002_이현호.html,completed,glm-4.5-air,2026-04-17T14:28:36
+P003,임보은,participant003@hrd-ai-demo.example.com,무림피앤피,HR팀,과장,HRD,보고서 작성 시간을 줄이고 데이터 기반으로 다음 차수 개선안을 제시하겠다,만족도 조사 데이터를 월별 대시보드와 1페이지 요약 보고서로 연결,정량 점수와 정성 코멘트를 함께 보며 다음 차수 개선 우선순위를 빠르게 합의한다,정성 의견을 숫자 옆에 붙여 스토리로 보여주는 예시가 인상 깊었다. 도구 설명보다 업무 문제 정의에 초점을 둔 구성이 실무적이었다. 오전 이론 파트는 비전공자 기준으로 속도가 조금 빨랐다.,정량과 정성을 같이 봐야 의사결정이 빨라진다는 점,김민주,현대제철 리더십 교육 후속 안내 - 임보은 과장님,"임보은 과장님, 현대제철 리더십 교육 잘 마치셨습니다. 교육에서 언급하신 데이터 기반 개선안과 만족도 조사 대시보드 구성은 실무적 접근력이 돋보입니다. 정량과 정성 데이터 결합으로 의사결정 효율성을 높이는 접근법은 인상 깊었습니다.",만족도 조사 월별 대시보드와 1페이지 요약 보고서를 2주 내로 구축하여 보고하시기 바랍니다.,ok,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"" lang=""ko"">
+<head>
+  <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>현대제철 리더십 교육 후속 안내 - 임보은 과장님</title>
+  <!--[if mso]>
+  <style type=""text/css"">
+    table { border-collapse: collapse; }
+    td { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <![endif]-->
+</head>
+<body style=""margin:0;padding:0;background-color:#eaf1f5;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.7;color:#0e2233;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;"">
+
+  <!-- Outer wrapper table for centering -->
+  <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#eaf1f5;"">
+    <tr>
+      <td align=""center"" style=""padding:40px 16px 50px 16px;"">
+
+        <!--[if mso]><table role=""presentation"" width=""680"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center""><tr><td><![endif]-->
+        <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width:680px;margin:0 auto;background-color:#ffffff;border:1px solid #d4e1e8;"">
+
+          <!-- ========== HEADER ========== -->
+          <tr>
+            <td style=""padding:34px 36px 24px 36px;background-color:#f3f9f8;border-bottom:2px solid #0d8f84;"">
+              <!-- Eyebrow badge -->
+              <table role=""presentation"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <td style=""background-color:#e6f4f2;padding:5px 14px;font-size:11px;font-weight:bold;color:#094d47;letter-spacing:0.08em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    &#9679;&nbsp; 현대제철 리더십 교육 F/U
+                  </td>
+                </tr>
+              </table>
+              <!-- Title -->
+              <h1 style=""margin:16px 0 8px 0;font-size:24px;font-weight:bold;line-height:1.35;color:#091e2f;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">현대제철 리더십 교육 후속 안내 - 임보은 과장님</h1>
+              <!-- Recipient info -->
+              <p style=""margin:0;font-size:14px;line-height:1.7;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">임보은&#xB2D8; &middot; 무림피앤피 HR팀 &middot; 과장</p>
+            </td>
+          </tr>
+
+          <!-- ========== BODY ========== -->
+          <tr>
+            <td style=""padding:30px 36px 10px 36px;"">
+              <p style=""margin:0 0 18px 0;font-size:15px;font-weight:bold;color:#094d47;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">임보은&#xB2D8; &#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
+              <p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">임보은 과장님, 현대제철 리더십 교육 잘 마치셨습니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">교육에서 언급하신 데이터 기반 개선안과 만족도 조사 대시보드 구성은 실무적 접근력이 돋보입니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">정량과 정성 데이터 결합으로 의사결정 효율성을 높이는 접근법은 인상 깊었습니다.</p>
+            </td>
+          </tr>
+
+          <!-- ========== INFO CARDS (2x2 table) ========== -->
+          <tr>
+            <td style=""padding:0 36px 10px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <!-- Card 1: Action Plan -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xD575;&#xC2EC; &#xC2E4;&#xD589;&#xACC4;&#xD68D;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">만족도 조사 데이터를 월별 대시보드와 1페이지 요약 보고서로 연결</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 2: Expected Behavior -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAE30;&#xB300; &#xD589;&#xB3D9;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">정량 점수와 정성 코멘트를 함께 보며 다음 차수 개선 우선순위를 빠르게 합의한다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Card 3: Key Takeaway -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAD50;&#xC721; &#xD575;&#xC2EC; &#xD3EC;&#xC778;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">정량과 정성을 같이 봐야 의사결정이 빨라진다는 점</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 4: Comment -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xCC38;&#xAC00;&#xC790; &#xCF54;&#xBA58;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">정성 의견을 숫자 옆에 붙여 스토리로 보여주는 예시가 인상 깊었다. 도구 설명보다 업무 문제 정의에 초점을 둔 구성이 실무적이었다. 오전 이론 파트는 비전공자 기준으로 속도가 조금 빨랐다.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== NEXT ACTION ========== -->
+          <tr>
+            <td style=""padding:6px 36px 20px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#0d8f84;"">
+                <tr>
+                  <td style=""padding:20px 24px;"">
+                    <p style=""margin:0 0 6px 0;font-size:11px;font-weight:bold;letter-spacing:0.1em;color:#b8e6e0;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">NEXT ACTION</p>
+                    <p style=""margin:0;font-size:16px;line-height:1.8;font-weight:bold;color:#ffffff;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">만족도 조사 월별 대시보드와 1페이지 요약 보고서를 2주 내로 구축하여 보고하시기 바랍니다.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== SIGNATURE ========== -->
+          <tr>
+            <td style=""padding:0 36px 36px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""border-top:1px solid #dae4ec;"">
+                <tr>
+                  <td style=""padding:20px 0 0 0;font-size:13px;line-height:1.9;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    감사합니다.<br />
+                    김민주<br />
+                    현대제철 컬처디자인팀
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+",sample_data\교육_액션플랜_데이터_feedback_output_html_preview\003_임보은.html,completed,glm-4.5-air,2026-04-17T14:28:54
+P004,김승현,participant004@hrd-ai-demo.example.com,성신양회,인사팀,선임,HR,길게 쌓인 VOC를 읽는 시간보다 의사결정 시간을 더 확보하겠다,정성 코멘트에서 핵심 토픽 3개와 대표 인용문 3개를 자동 추출,운영진이 불만 포인트와 강점을 빠르게 파악해 다음 차수 반영 속도를 높인다,정성데이터를 너무 무겁게 다루지 않아도 된다는 설명이 부담을 줄여줬다. 실습 데이터 예시가 한두 건 더 있었으면 비교 설명이 쉬웠을 것 같다. 다만 오전 기술 동향 파트는 초급자에게 조금 빠르게 느껴질 수 있었다.,인용문 3개와 토픽 3개만 잘 뽑아도 보고 품질이 높아진다는 점,이도현,현대제철 리더십 교육 후속 커뮤니케이션 - 김승현님,"김승현님, 성신양회 인사팀 김승현님의 VOC 분석 시간 단축을 통한 의사결정 시간 확보 목표에 공감합니다. 핵심 토픽과 인용문 추출 기술이 정말 유용할 것 같습니다. 다음 차수에 운영진의 피드백을 빠르게 반영하시길 기대하겠습니다.",액션플랜에 따라 정성 코멘트에서 핵심 토픽 3개와 대표 인용문 3개를 자동 추출하여 운영진 불만 포인트와 강점 파악 및 다음 차수 반영 속도 향상,ok,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"" lang=""ko"">
+<head>
+  <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>현대제철 리더십 교육 후속 커뮤니케이션 - 김승현님</title>
+  <!--[if mso]>
+  <style type=""text/css"">
+    table { border-collapse: collapse; }
+    td { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <![endif]-->
+</head>
+<body style=""margin:0;padding:0;background-color:#eaf1f5;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.7;color:#0e2233;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;"">
+
+  <!-- Outer wrapper table for centering -->
+  <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#eaf1f5;"">
+    <tr>
+      <td align=""center"" style=""padding:40px 16px 50px 16px;"">
+
+        <!--[if mso]><table role=""presentation"" width=""680"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center""><tr><td><![endif]-->
+        <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width:680px;margin:0 auto;background-color:#ffffff;border:1px solid #d4e1e8;"">
+
+          <!-- ========== HEADER ========== -->
+          <tr>
+            <td style=""padding:34px 36px 24px 36px;background-color:#f3f9f8;border-bottom:2px solid #0d8f84;"">
+              <!-- Eyebrow badge -->
+              <table role=""presentation"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <td style=""background-color:#e6f4f2;padding:5px 14px;font-size:11px;font-weight:bold;color:#094d47;letter-spacing:0.08em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    &#9679;&nbsp; 현대제철 리더십 교육 F/U
+                  </td>
+                </tr>
+              </table>
+              <!-- Title -->
+              <h1 style=""margin:16px 0 8px 0;font-size:24px;font-weight:bold;line-height:1.35;color:#091e2f;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">현대제철 리더십 교육 후속 커뮤니케이션 - 김승현님</h1>
+              <!-- Recipient info -->
+              <p style=""margin:0;font-size:14px;line-height:1.7;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">김승현&#xB2D8; &middot; 성신양회 인사팀 &middot; 선임</p>
+            </td>
+          </tr>
+
+          <!-- ========== BODY ========== -->
+          <tr>
+            <td style=""padding:30px 36px 10px 36px;"">
+              <p style=""margin:0 0 18px 0;font-size:15px;font-weight:bold;color:#094d47;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">김승현&#xB2D8; &#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
+              <p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">김승현님, 성신양회 인사팀 김승현님의 VOC 분석 시간 단축을 통한 의사결정 시간 확보 목표에 공감합니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">핵심 토픽과 인용문 추출 기술이 정말 유용할 것 같습니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">다음 차수에 운영진의 피드백을 빠르게 반영하시길 기대하겠습니다.</p>
+            </td>
+          </tr>
+
+          <!-- ========== INFO CARDS (2x2 table) ========== -->
+          <tr>
+            <td style=""padding:0 36px 10px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <!-- Card 1: Action Plan -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xD575;&#xC2EC; &#xC2E4;&#xD589;&#xACC4;&#xD68D;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">정성 코멘트에서 핵심 토픽 3개와 대표 인용문 3개를 자동 추출</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 2: Expected Behavior -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAE30;&#xB300; &#xD589;&#xB3D9;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">운영진이 불만 포인트와 강점을 빠르게 파악해 다음 차수 반영 속도를 높인다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Card 3: Key Takeaway -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAD50;&#xC721; &#xD575;&#xC2EC; &#xD3EC;&#xC778;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">인용문 3개와 토픽 3개만 잘 뽑아도 보고 품질이 높아진다는 점</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 4: Comment -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xCC38;&#xAC00;&#xC790; &#xCF54;&#xBA58;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">정성데이터를 너무 무겁게 다루지 않아도 된다는 설명이 부담을 줄여줬다. 실습 데이터 예시가 한두 건 더 있었으면 비교 설명이 쉬웠을 것 같다. 다만 오전 기술 동향 파트는 초급자에게 조금 빠르게 느껴질 수 있었다.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== NEXT ACTION ========== -->
+          <tr>
+            <td style=""padding:6px 36px 20px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#0d8f84;"">
+                <tr>
+                  <td style=""padding:20px 24px;"">
+                    <p style=""margin:0 0 6px 0;font-size:11px;font-weight:bold;letter-spacing:0.1em;color:#b8e6e0;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">NEXT ACTION</p>
+                    <p style=""margin:0;font-size:16px;line-height:1.8;font-weight:bold;color:#ffffff;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">액션플랜에 따라 정성 코멘트에서 핵심 토픽 3개와 대표 인용문 3개를 자동 추출하여 운영진 불만 포인트와 강점 파악 및 다음 차수 반영 속도 향상</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== SIGNATURE ========== -->
+          <tr>
+            <td style=""padding:0 36px 36px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""border-top:1px solid #dae4ec;"">
+                <tr>
+                  <td style=""padding:20px 0 0 0;font-size:13px;line-height:1.9;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    감사합니다.<br />
+                    이도현<br />
+                    현대제철 컬처디자인팀
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+",sample_data\교육_액션플랜_데이터_feedback_output_html_preview\004_김승현.html,completed,glm-4.5-air,2026-04-17T14:29:09
+P005,문재윤,participant005@hrd-ai-demo.example.com,성신양회,교육팀,책임,HRD,교육 효과를 운영 기록이 아니라 경영 의사결정 자료로 전환하겠다,경영진 공유용으로 5장 내외의 교육 효과 요약 슬라이드 템플릿을 만든다,교육 결과를 숫자와 실행 과제로 연결해 임원 보고 속도를 높인다,보고용 스토리라인을 먼저 잡고 데이터를 넣는 방식이 도움이 됐다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.,숫자와 서술형 의견을 한 장의 스토리로 묶어야 경영진이 이해하기 쉽다는 점,정유라,현대제철 리더십 교육 후속 지원,"문재윤 님, 성신양회 교육팀 책임님. 교육에서 스토리라인을 먼저 잡고 데이터를 넣는 방식이 도움이 되셨다는 후기 기쁩니다. 경영진 보고 속도를 높이시려는 액션플랜과 숫자와 의견을 한 장으로 묶는 포인트를 연계하여 진행하시면 좋겠습니다. 실습 난도 조정이 필요하시면 추가 자료를 제공해 드릴 수 있습니다.",1) 경영진 공용 슬라이드 템플릿(5장 내외) 제공 예정 2) 실습 난도 높인 추가 자료 요청 시 배치 3) 교육 적용 후 임원 보고 경험 공유 요청,ok,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"" lang=""ko"">
+<head>
+  <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>현대제철 리더십 교육 후속 지원</title>
+  <!--[if mso]>
+  <style type=""text/css"">
+    table { border-collapse: collapse; }
+    td { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <![endif]-->
+</head>
+<body style=""margin:0;padding:0;background-color:#eaf1f5;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.7;color:#0e2233;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;"">
+
+  <!-- Outer wrapper table for centering -->
+  <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#eaf1f5;"">
+    <tr>
+      <td align=""center"" style=""padding:40px 16px 50px 16px;"">
+
+        <!--[if mso]><table role=""presentation"" width=""680"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center""><tr><td><![endif]-->
+        <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width:680px;margin:0 auto;background-color:#ffffff;border:1px solid #d4e1e8;"">
+
+          <!-- ========== HEADER ========== -->
+          <tr>
+            <td style=""padding:34px 36px 24px 36px;background-color:#f3f9f8;border-bottom:2px solid #0d8f84;"">
+              <!-- Eyebrow badge -->
+              <table role=""presentation"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <td style=""background-color:#e6f4f2;padding:5px 14px;font-size:11px;font-weight:bold;color:#094d47;letter-spacing:0.08em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    &#9679;&nbsp; 현대제철 리더십 교육 F/U
+                  </td>
+                </tr>
+              </table>
+              <!-- Title -->
+              <h1 style=""margin:16px 0 8px 0;font-size:24px;font-weight:bold;line-height:1.35;color:#091e2f;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">현대제철 리더십 교육 후속 지원</h1>
+              <!-- Recipient info -->
+              <p style=""margin:0;font-size:14px;line-height:1.7;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">문재윤&#xB2D8; &middot; 성신양회 교육팀 &middot; 책임</p>
+            </td>
+          </tr>
+
+          <!-- ========== BODY ========== -->
+          <tr>
+            <td style=""padding:30px 36px 10px 36px;"">
+              <p style=""margin:0 0 18px 0;font-size:15px;font-weight:bold;color:#094d47;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">문재윤&#xB2D8; &#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
+              <p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">문재윤 님, 성신양회 교육팀 책임님.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">교육에서 스토리라인을 먼저 잡고 데이터를 넣는 방식이 도움이 되셨다는 후기 기쁩니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">경영진 보고 속도를 높이시려는 액션플랜과 숫자와 의견을 한 장으로 묶는 포인트를 연계하여 진행하시면 좋겠습니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">실습 난도 조정이 필요하시면 추가 자료를 제공해 드릴 수 있습니다.</p>
+            </td>
+          </tr>
+
+          <!-- ========== INFO CARDS (2x2 table) ========== -->
+          <tr>
+            <td style=""padding:0 36px 10px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <!-- Card 1: Action Plan -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xD575;&#xC2EC; &#xC2E4;&#xD589;&#xACC4;&#xD68D;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">경영진 공유용으로 5장 내외의 교육 효과 요약 슬라이드 템플릿을 만든다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 2: Expected Behavior -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAE30;&#xB300; &#xD589;&#xB3D9;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">교육 결과를 숫자와 실행 과제로 연결해 임원 보고 속도를 높인다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Card 3: Key Takeaway -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAD50;&#xC721; &#xD575;&#xC2EC; &#xD3EC;&#xC778;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">숫자와 서술형 의견을 한 장의 스토리로 묶어야 경영진이 이해하기 쉽다는 점</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 4: Comment -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xCC38;&#xAC00;&#xC790; &#xCF54;&#xBA58;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">보고용 스토리라인을 먼저 잡고 데이터를 넣는 방식이 도움이 됐다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== NEXT ACTION ========== -->
+          <tr>
+            <td style=""padding:6px 36px 20px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#0d8f84;"">
+                <tr>
+                  <td style=""padding:20px 24px;"">
+                    <p style=""margin:0 0 6px 0;font-size:11px;font-weight:bold;letter-spacing:0.1em;color:#b8e6e0;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">NEXT ACTION</p>
+                    <p style=""margin:0;font-size:16px;line-height:1.8;font-weight:bold;color:#ffffff;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">1) 경영진 공용 슬라이드 템플릿(5장 내외) 제공 예정 2) 실습 난도 높인 추가 자료 요청 시 배치 3) 교육 적용 후 임원 보고 경험 공유 요청</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== SIGNATURE ========== -->
+          <tr>
+            <td style=""padding:0 36px 36px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""border-top:1px solid #dae4ec;"">
+                <tr>
+                  <td style=""padding:20px 0 0 0;font-size:13px;line-height:1.9;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    감사합니다.<br />
+                    정유라<br />
+                    현대제철 컬처디자인팀
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+",sample_data\교육_액션플랜_데이터_feedback_output_html_preview\005_문재윤.html,completed,glm-4.5-air,2026-04-17T14:29:34
+P006,임송훈,participant006@hrd-ai-demo.example.com,엘엑스판토스,인재육성팀,책임,인재육성,개인 역량에 의존하던 AI 활용을 팀 단위의 재사용 자산으로 남기겠다,사내에서 자주 쓰는 프롬프트를 역할·맥락·입력자료·출력형식 템플릿으로 정리,담당자마다 품질 편차가 줄고 비슷한 작업을 반복할 때 초안 속도가 빨라진다,프롬프트를 감으로 쓰지 않고 구조화하는 법을 배운 점이 유용했다. 강의-시연-실습이 하나의 흐름으로 이어져 집중하기 쉬웠다. 현업 사례가 더 세분화되면 우리 조직에 옮겨 담기 쉬울 것 같다.,출력형식과 품질기준을 먼저 정해야 결과가 안정된다는 점,한충석,현대제철 리더십 교육 후속 안내,"교육에 참여해주셔서 감사합니다, 임송훈 님. 프롬프트 구조화의 중요성을 인지하고 팀 단위의 재사용 자산으로 발전시키려는 포부가 인상 깊습니다. 약속하신 템플릿 정리 작업을 차근차근 진행하시며 팀의 AI 활용도를 높여보시길 기대합니다.",진행하시는 템플릿 정리 작업의 상황을 공유해 주시기 바랍니다.,ok,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"" lang=""ko"">
+<head>
+  <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>현대제철 리더십 교육 후속 안내</title>
+  <!--[if mso]>
+  <style type=""text/css"">
+    table { border-collapse: collapse; }
+    td { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <![endif]-->
+</head>
+<body style=""margin:0;padding:0;background-color:#eaf1f5;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.7;color:#0e2233;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;"">
+
+  <!-- Outer wrapper table for centering -->
+  <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#eaf1f5;"">
+    <tr>
+      <td align=""center"" style=""padding:40px 16px 50px 16px;"">
+
+        <!--[if mso]><table role=""presentation"" width=""680"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center""><tr><td><![endif]-->
+        <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width:680px;margin:0 auto;background-color:#ffffff;border:1px solid #d4e1e8;"">
+
+          <!-- ========== HEADER ========== -->
+          <tr>
+            <td style=""padding:34px 36px 24px 36px;background-color:#f3f9f8;border-bottom:2px solid #0d8f84;"">
+              <!-- Eyebrow badge -->
+              <table role=""presentation"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <td style=""background-color:#e6f4f2;padding:5px 14px;font-size:11px;font-weight:bold;color:#094d47;letter-spacing:0.08em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    &#9679;&nbsp; 현대제철 리더십 교육 F/U
+                  </td>
+                </tr>
+              </table>
+              <!-- Title -->
+              <h1 style=""margin:16px 0 8px 0;font-size:24px;font-weight:bold;line-height:1.35;color:#091e2f;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">현대제철 리더십 교육 후속 안내</h1>
+              <!-- Recipient info -->
+              <p style=""margin:0;font-size:14px;line-height:1.7;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">임송훈&#xB2D8; &middot; 엘엑스판토스 인재육성팀 &middot; 책임</p>
+            </td>
+          </tr>
+
+          <!-- ========== BODY ========== -->
+          <tr>
+            <td style=""padding:30px 36px 10px 36px;"">
+              <p style=""margin:0 0 18px 0;font-size:15px;font-weight:bold;color:#094d47;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">임송훈&#xB2D8; &#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
+              <p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">교육에 참여해주셔서 감사합니다, 임송훈 님.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">프롬프트 구조화의 중요성을 인지하고 팀 단위의 재사용 자산으로 발전시키려는 포부가 인상 깊습니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">약속하신 템플릿 정리 작업을 차근차근 진행하시며 팀의 AI 활용도를 높여보시길 기대합니다.</p>
+            </td>
+          </tr>
+
+          <!-- ========== INFO CARDS (2x2 table) ========== -->
+          <tr>
+            <td style=""padding:0 36px 10px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <!-- Card 1: Action Plan -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xD575;&#xC2EC; &#xC2E4;&#xD589;&#xACC4;&#xD68D;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">사내에서 자주 쓰는 프롬프트를 역할·맥락·입력자료·출력형식 템플릿으로 정리</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 2: Expected Behavior -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAE30;&#xB300; &#xD589;&#xB3D9;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">담당자마다 품질 편차가 줄고 비슷한 작업을 반복할 때 초안 속도가 빨라진다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Card 3: Key Takeaway -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAD50;&#xC721; &#xD575;&#xC2EC; &#xD3EC;&#xC778;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">출력형식과 품질기준을 먼저 정해야 결과가 안정된다는 점</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 4: Comment -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xCC38;&#xAC00;&#xC790; &#xCF54;&#xBA58;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">프롬프트를 감으로 쓰지 않고 구조화하는 법을 배운 점이 유용했다. 강의-시연-실습이 하나의 흐름으로 이어져 집중하기 쉬웠다. 현업 사례가 더 세분화되면 우리 조직에 옮겨 담기 쉬울 것 같다.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== NEXT ACTION ========== -->
+          <tr>
+            <td style=""padding:6px 36px 20px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#0d8f84;"">
+                <tr>
+                  <td style=""padding:20px 24px;"">
+                    <p style=""margin:0 0 6px 0;font-size:11px;font-weight:bold;letter-spacing:0.1em;color:#b8e6e0;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">NEXT ACTION</p>
+                    <p style=""margin:0;font-size:16px;line-height:1.8;font-weight:bold;color:#ffffff;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">진행하시는 템플릿 정리 작업의 상황을 공유해 주시기 바랍니다.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== SIGNATURE ========== -->
+          <tr>
+            <td style=""padding:0 36px 36px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""border-top:1px solid #dae4ec;"">
+                <tr>
+                  <td style=""padding:20px 0 0 0;font-size:13px;line-height:1.9;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    감사합니다.<br />
+                    한충석<br />
+                    현대제철 컬처디자인팀
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+",sample_data\교육_액션플랜_데이터_feedback_output_html_preview\006_임송훈.html,completed,glm-4.5-air,2026-04-17T14:29:48
+P007,박신열,participant007@hrd-ai-demo.example.com,오뚜기,교육팀,대리,HRD,사내 교육 운영에서도 웹 기반 정보 제공 방식을 자연스럽게 정착시키겠다,GitHub Pages 기반 교육 안내 페이지 제작 프로세스를 팀 표준으로 정리,교육 안내 페이지를 빠르게 배포하고 모바일 접근성을 기본값으로 맞춘다,페이지를 단순히 예쁘게 만드는 것이 아니라 운영 리스크를 줄이는 관점이 좋았다. 현업에 바로 가져갈 산출물이 분명해서 만족도가 높았다. 이론과 실습의 난이도 균형은 전반적으로 적절했다.,모바일 우선 설계가 운영 효율과 직결된다는 점,박서윤,"오뚜기 교육팀 박신열 님, 현대제철 리더십 교육 후속 안내","박신열 님, 교육에 참여해주셔서 감사합니다. 웹 기반 정보 제공 방식을 정착시키는 포부와 GitHub Pages 기반 교육 페이지 표준화 계획에 큰 기대를 가집니다. 모바일 우선 설계를 통해 교육 운영 효율을 높이는 데 적극 활용하시길 바랍니다.",교육 안내 페이지 프로토타입 개발 및 모바일 접근성 검증 완료,ok,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"" lang=""ko"">
+<head>
+  <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>오뚜기 교육팀 박신열 님, 현대제철 리더십 교육 후속 안내</title>
+  <!--[if mso]>
+  <style type=""text/css"">
+    table { border-collapse: collapse; }
+    td { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <![endif]-->
+</head>
+<body style=""margin:0;padding:0;background-color:#eaf1f5;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.7;color:#0e2233;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;"">
+
+  <!-- Outer wrapper table for centering -->
+  <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#eaf1f5;"">
+    <tr>
+      <td align=""center"" style=""padding:40px 16px 50px 16px;"">
+
+        <!--[if mso]><table role=""presentation"" width=""680"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center""><tr><td><![endif]-->
+        <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width:680px;margin:0 auto;background-color:#ffffff;border:1px solid #d4e1e8;"">
+
+          <!-- ========== HEADER ========== -->
+          <tr>
+            <td style=""padding:34px 36px 24px 36px;background-color:#f3f9f8;border-bottom:2px solid #0d8f84;"">
+              <!-- Eyebrow badge -->
+              <table role=""presentation"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <td style=""background-color:#e6f4f2;padding:5px 14px;font-size:11px;font-weight:bold;color:#094d47;letter-spacing:0.08em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    &#9679;&nbsp; 현대제철 리더십 교육 F/U
+                  </td>
+                </tr>
+              </table>
+              <!-- Title -->
+              <h1 style=""margin:16px 0 8px 0;font-size:24px;font-weight:bold;line-height:1.35;color:#091e2f;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">오뚜기 교육팀 박신열 님, 현대제철 리더십 교육 후속 안내</h1>
+              <!-- Recipient info -->
+              <p style=""margin:0;font-size:14px;line-height:1.7;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">박신열&#xB2D8; &middot; 오뚜기 교육팀 &middot; 대리</p>
+            </td>
+          </tr>
+
+          <!-- ========== BODY ========== -->
+          <tr>
+            <td style=""padding:30px 36px 10px 36px;"">
+              <p style=""margin:0 0 18px 0;font-size:15px;font-weight:bold;color:#094d47;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">박신열&#xB2D8; &#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
+              <p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">박신열 님, 교육에 참여해주셔서 감사합니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">웹 기반 정보 제공 방식을 정착시키는 포부와 GitHub Pages 기반 교육 페이지 표준화 계획에 큰 기대를 가집니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">모바일 우선 설계를 통해 교육 운영 효율을 높이는 데 적극 활용하시길 바랍니다.</p>
+            </td>
+          </tr>
+
+          <!-- ========== INFO CARDS (2x2 table) ========== -->
+          <tr>
+            <td style=""padding:0 36px 10px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <!-- Card 1: Action Plan -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xD575;&#xC2EC; &#xC2E4;&#xD589;&#xACC4;&#xD68D;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">GitHub Pages 기반 교육 안내 페이지 제작 프로세스를 팀 표준으로 정리</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 2: Expected Behavior -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAE30;&#xB300; &#xD589;&#xB3D9;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">교육 안내 페이지를 빠르게 배포하고 모바일 접근성을 기본값으로 맞춘다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Card 3: Key Takeaway -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAD50;&#xC721; &#xD575;&#xC2EC; &#xD3EC;&#xC778;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">모바일 우선 설계가 운영 효율과 직결된다는 점</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 4: Comment -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xCC38;&#xAC00;&#xC790; &#xCF54;&#xBA58;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">페이지를 단순히 예쁘게 만드는 것이 아니라 운영 리스크를 줄이는 관점이 좋았다. 현업에 바로 가져갈 산출물이 분명해서 만족도가 높았다. 이론과 실습의 난이도 균형은 전반적으로 적절했다.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== NEXT ACTION ========== -->
+          <tr>
+            <td style=""padding:6px 36px 20px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#0d8f84;"">
+                <tr>
+                  <td style=""padding:20px 24px;"">
+                    <p style=""margin:0 0 6px 0;font-size:11px;font-weight:bold;letter-spacing:0.1em;color:#b8e6e0;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">NEXT ACTION</p>
+                    <p style=""margin:0;font-size:16px;line-height:1.8;font-weight:bold;color:#ffffff;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">교육 안내 페이지 프로토타입 개발 및 모바일 접근성 검증 완료</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== SIGNATURE ========== -->
+          <tr>
+            <td style=""padding:0 36px 36px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""border-top:1px solid #dae4ec;"">
+                <tr>
+                  <td style=""padding:20px 0 0 0;font-size:13px;line-height:1.9;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    감사합니다.<br />
+                    박서윤<br />
+                    현대제철 컬처디자인팀
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+",sample_data\교육_액션플랜_데이터_feedback_output_html_preview\007_박신열.html,completed,glm-4.5-air,2026-04-17T14:30:04
+P008,권재현,participant008@hrd-ai-demo.example.com,유안타증권,인재성장팀,대리,인재육성,한 번의 교육을 일회성 이벤트가 아니라 행동 변화의 시작점으로 만들겠다,수강 후 4주 실행 습관을 위한 주차별 체크인 시트와 리마인드 메일을 만든다,참가자가 계획을 선언에 그치지 않고 작은 실험을 이어가도록 유도한다,교육 직후 작은 실험부터 설계하라는 메시지가 가장 현실적으로 다가왔다. 오전 이론 파트는 비전공자 기준으로 속도가 조금 빨랐다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.,작게 시작해 빠르게 검증하는 접근이 현업 적용 장벽을 낮춘다는 점,김민주,현대제철 리더십 교육 후속 안내,"권재현님, 현대제철 리더십 교육은 행동 변화의 시작점이 되길 바랍니다. 작게 시작해 빠르게 검증하는 접근법을 실제 업무에 적용해 보시길 추천합니다. 교육 후 4주간 주차별 체크인 시트로 성과를 점검하고, 작은 실험을 지속해 보세요.",4주간 주차별 체크인 시트 작성 및 작은 실험 실천,ok,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"" lang=""ko"">
+<head>
+  <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>현대제철 리더십 교육 후속 안내</title>
+  <!--[if mso]>
+  <style type=""text/css"">
+    table { border-collapse: collapse; }
+    td { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <![endif]-->
+</head>
+<body style=""margin:0;padding:0;background-color:#eaf1f5;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.7;color:#0e2233;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;"">
+
+  <!-- Outer wrapper table for centering -->
+  <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#eaf1f5;"">
+    <tr>
+      <td align=""center"" style=""padding:40px 16px 50px 16px;"">
+
+        <!--[if mso]><table role=""presentation"" width=""680"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center""><tr><td><![endif]-->
+        <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width:680px;margin:0 auto;background-color:#ffffff;border:1px solid #d4e1e8;"">
+
+          <!-- ========== HEADER ========== -->
+          <tr>
+            <td style=""padding:34px 36px 24px 36px;background-color:#f3f9f8;border-bottom:2px solid #0d8f84;"">
+              <!-- Eyebrow badge -->
+              <table role=""presentation"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <td style=""background-color:#e6f4f2;padding:5px 14px;font-size:11px;font-weight:bold;color:#094d47;letter-spacing:0.08em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    &#9679;&nbsp; 현대제철 리더십 교육 F/U
+                  </td>
+                </tr>
+              </table>
+              <!-- Title -->
+              <h1 style=""margin:16px 0 8px 0;font-size:24px;font-weight:bold;line-height:1.35;color:#091e2f;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">현대제철 리더십 교육 후속 안내</h1>
+              <!-- Recipient info -->
+              <p style=""margin:0;font-size:14px;line-height:1.7;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">권재현&#xB2D8; &middot; 유안타증권 인재성장팀 &middot; 대리</p>
+            </td>
+          </tr>
+
+          <!-- ========== BODY ========== -->
+          <tr>
+            <td style=""padding:30px 36px 10px 36px;"">
+              <p style=""margin:0 0 18px 0;font-size:15px;font-weight:bold;color:#094d47;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">권재현&#xB2D8; &#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
+              <p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">권재현님, 현대제철 리더십 교육은 행동 변화의 시작점이 되길 바랍니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">작게 시작해 빠르게 검증하는 접근법을 실제 업무에 적용해 보시길 추천합니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">교육 후 4주간 주차별 체크인 시트로 성과를 점검하고, 작은 실험을 지속해 보세요.</p>
+            </td>
+          </tr>
+
+          <!-- ========== INFO CARDS (2x2 table) ========== -->
+          <tr>
+            <td style=""padding:0 36px 10px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <!-- Card 1: Action Plan -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xD575;&#xC2EC; &#xC2E4;&#xD589;&#xACC4;&#xD68D;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">수강 후 4주 실행 습관을 위한 주차별 체크인 시트와 리마인드 메일을 만든다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 2: Expected Behavior -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAE30;&#xB300; &#xD589;&#xB3D9;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">참가자가 계획을 선언에 그치지 않고 작은 실험을 이어가도록 유도한다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Card 3: Key Takeaway -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAD50;&#xC721; &#xD575;&#xC2EC; &#xD3EC;&#xC778;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">작게 시작해 빠르게 검증하는 접근이 현업 적용 장벽을 낮춘다는 점</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 4: Comment -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xCC38;&#xAC00;&#xC790; &#xCF54;&#xBA58;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">교육 직후 작은 실험부터 설계하라는 메시지가 가장 현실적으로 다가왔다. 오전 이론 파트는 비전공자 기준으로 속도가 조금 빨랐다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== NEXT ACTION ========== -->
+          <tr>
+            <td style=""padding:6px 36px 20px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#0d8f84;"">
+                <tr>
+                  <td style=""padding:20px 24px;"">
+                    <p style=""margin:0 0 6px 0;font-size:11px;font-weight:bold;letter-spacing:0.1em;color:#b8e6e0;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">NEXT ACTION</p>
+                    <p style=""margin:0;font-size:16px;line-height:1.8;font-weight:bold;color:#ffffff;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">4주간 주차별 체크인 시트 작성 및 작은 실험 실천</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== SIGNATURE ========== -->
+          <tr>
+            <td style=""padding:0 36px 36px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""border-top:1px solid #dae4ec;"">
+                <tr>
+                  <td style=""padding:20px 0 0 0;font-size:13px;line-height:1.9;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    감사합니다.<br />
+                    김민주<br />
+                    현대제철 컬처디자인팀
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+",sample_data\교육_액션플랜_데이터_feedback_output_html_preview\008_권재현.html,completed,glm-4.5-air,2026-04-17T14:30:25
+P009,박철우,participant009@hrd-ai-demo.example.com,유안타증권,인재성장팀,차장,인재육성,좋은 사례가 묻히지 않도록 학습 자산으로 반복 활용하겠다,"사내 강사와 우수 사례 인터뷰를 FAQ, 사례 카드, 홍보 문안으로 재활용",교육의 기대효과를 수강 전부터 명확히 전달해 참여 의지를 높인다,기존 사례를 재가공해 여러 산출물로 확장하는 흐름이 특히 인상 깊었다. 강사의 설명이 기술 용어를 과하게 쓰지 않아 이해가 쉬웠다. 실습 데이터 예시가 한두 건 더 있었으면 비교 설명이 쉬웠을 것 같다.,AI를 초안 작성에 쓰고 사람은 사실관계와 맥락을 최종 점검하면 된다는 점,이도현,[현대제철 리더십 교육] 박철우 차장님 후속 안내,"박 차장님, 현대제철 리더십 교육의 인상 깊었던 AI 초안 작성과 인간 최종 점검 방식을 유안타증권에 적용해 보시길 권합니다. 차장님께서 계획한 우수 사례 인터뷰와 재활용 방안은 교육 효과를 극대화할 좋은 시작점이 될 것입니다. 다음 주까지 내부 공유 자료로 활용 가능한 형태로 사례를 정리해 주시면 함께 검토해 보겠습니다.",사례 정리 및 공유 자료화,ok,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"" lang=""ko"">
+<head>
+  <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>[현대제철 리더십 교육] 박철우 차장님 후속 안내</title>
+  <!--[if mso]>
+  <style type=""text/css"">
+    table { border-collapse: collapse; }
+    td { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <![endif]-->
+</head>
+<body style=""margin:0;padding:0;background-color:#eaf1f5;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.7;color:#0e2233;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;"">
+
+  <!-- Outer wrapper table for centering -->
+  <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#eaf1f5;"">
+    <tr>
+      <td align=""center"" style=""padding:40px 16px 50px 16px;"">
+
+        <!--[if mso]><table role=""presentation"" width=""680"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center""><tr><td><![endif]-->
+        <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width:680px;margin:0 auto;background-color:#ffffff;border:1px solid #d4e1e8;"">
+
+          <!-- ========== HEADER ========== -->
+          <tr>
+            <td style=""padding:34px 36px 24px 36px;background-color:#f3f9f8;border-bottom:2px solid #0d8f84;"">
+              <!-- Eyebrow badge -->
+              <table role=""presentation"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <td style=""background-color:#e6f4f2;padding:5px 14px;font-size:11px;font-weight:bold;color:#094d47;letter-spacing:0.08em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    &#9679;&nbsp; 현대제철 리더십 교육 F/U
+                  </td>
+                </tr>
+              </table>
+              <!-- Title -->
+              <h1 style=""margin:16px 0 8px 0;font-size:24px;font-weight:bold;line-height:1.35;color:#091e2f;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">[현대제철 리더십 교육] 박철우 차장님 후속 안내</h1>
+              <!-- Recipient info -->
+              <p style=""margin:0;font-size:14px;line-height:1.7;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">박철우&#xB2D8; &middot; 유안타증권 인재성장팀 &middot; 차장</p>
+            </td>
+          </tr>
+
+          <!-- ========== BODY ========== -->
+          <tr>
+            <td style=""padding:30px 36px 10px 36px;"">
+              <p style=""margin:0 0 18px 0;font-size:15px;font-weight:bold;color:#094d47;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">박철우&#xB2D8; &#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
+              <p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">박 차장님, 현대제철 리더십 교육의 인상 깊었던 AI 초안 작성과 인간 최종 점검 방식을 유안타증권에 적용해 보시길 권합니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">차장님께서 계획한 우수 사례 인터뷰와 재활용 방안은 교육 효과를 극대화할 좋은 시작점이 될 것입니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">다음 주까지 내부 공유 자료로 활용 가능한 형태로 사례를 정리해 주시면 함께 검토해 보겠습니다.</p>
+            </td>
+          </tr>
+
+          <!-- ========== INFO CARDS (2x2 table) ========== -->
+          <tr>
+            <td style=""padding:0 36px 10px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <!-- Card 1: Action Plan -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xD575;&#xC2EC; &#xC2E4;&#xD589;&#xACC4;&#xD68D;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">사내 강사와 우수 사례 인터뷰를 FAQ, 사례 카드, 홍보 문안으로 재활용</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 2: Expected Behavior -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAE30;&#xB300; &#xD589;&#xB3D9;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">교육의 기대효과를 수강 전부터 명확히 전달해 참여 의지를 높인다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Card 3: Key Takeaway -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAD50;&#xC721; &#xD575;&#xC2EC; &#xD3EC;&#xC778;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">AI를 초안 작성에 쓰고 사람은 사실관계와 맥락을 최종 점검하면 된다는 점</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 4: Comment -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xCC38;&#xAC00;&#xC790; &#xCF54;&#xBA58;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">기존 사례를 재가공해 여러 산출물로 확장하는 흐름이 특히 인상 깊었다. 강사의 설명이 기술 용어를 과하게 쓰지 않아 이해가 쉬웠다. 실습 데이터 예시가 한두 건 더 있었으면 비교 설명이 쉬웠을 것 같다.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== NEXT ACTION ========== -->
+          <tr>
+            <td style=""padding:6px 36px 20px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#0d8f84;"">
+                <tr>
+                  <td style=""padding:20px 24px;"">
+                    <p style=""margin:0 0 6px 0;font-size:11px;font-weight:bold;letter-spacing:0.1em;color:#b8e6e0;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">NEXT ACTION</p>
+                    <p style=""margin:0;font-size:16px;line-height:1.8;font-weight:bold;color:#ffffff;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">사례 정리 및 공유 자료화</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== SIGNATURE ========== -->
+          <tr>
+            <td style=""padding:0 36px 36px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""border-top:1px solid #dae4ec;"">
+                <tr>
+                  <td style=""padding:20px 0 0 0;font-size:13px;line-height:1.9;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    감사합니다.<br />
+                    이도현<br />
+                    현대제철 컬처디자인팀
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+",sample_data\교육_액션플랜_데이터_feedback_output_html_preview\009_박철우.html,completed,glm-4.5-air,2026-04-17T14:30:47
+P010,박정수,participant010@hrd-ai-demo.example.com,인천도시가스,총무부,계장,총무,실무자가 안심하고 AI를 쓰도록 보안 가이드와 운영 기준을 함께 만들겠다,Action Plan 데이터 비식별화 기준과 외부 서비스 업로드 원칙을 정리한다,AI 활용 속도를 유지하면서도 민감정보 노출 리스크를 줄인다,편의성보다 데이터 통제 원칙을 먼저 설명한 점이 신뢰를 높였다. 중간 Q&A 시간을 한 번 더 넣어주면 이해가 더 안정될 것 같다. 다만 오전 기술 동향 파트는 초급자에게 조금 빠르게 느껴질 수 있었다.,자동화보다 먼저 데이터 경계와 검수 단계를 정의해야 한다는 점,정유라,박정수님 현대제철 리더십 교육 후속 안내,"박정수님, 현대제철 리더십 교육에 참여해주셔서 감사합니다. 인천도시가스에서 실무자가 안심하고 AI를 활용할 수 있도록 보안 가이드를 개발하는 데 큰 기여를 하실 것이라 확신합니다. 교육에서 언급된 데이터 경계 설정 원칙을 바탕으로 액션플램을 실현하시면 AI 활용 속도와 정보 보안을 동시에 달성하실 수 있을 것입니다.",데이터 비식별화 기준과 외부 서비스 업로드 원칙 정리 문서를 다음 주까지 완성하여 현대제철 컬처디자인팀 정유라 매니저에게 제출,ok,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"" lang=""ko"">
+<head>
+  <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>박정수님 현대제철 리더십 교육 후속 안내</title>
+  <!--[if mso]>
+  <style type=""text/css"">
+    table { border-collapse: collapse; }
+    td { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <![endif]-->
+</head>
+<body style=""margin:0;padding:0;background-color:#eaf1f5;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.7;color:#0e2233;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;"">
+
+  <!-- Outer wrapper table for centering -->
+  <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#eaf1f5;"">
+    <tr>
+      <td align=""center"" style=""padding:40px 16px 50px 16px;"">
+
+        <!--[if mso]><table role=""presentation"" width=""680"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center""><tr><td><![endif]-->
+        <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width:680px;margin:0 auto;background-color:#ffffff;border:1px solid #d4e1e8;"">
+
+          <!-- ========== HEADER ========== -->
+          <tr>
+            <td style=""padding:34px 36px 24px 36px;background-color:#f3f9f8;border-bottom:2px solid #0d8f84;"">
+              <!-- Eyebrow badge -->
+              <table role=""presentation"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <td style=""background-color:#e6f4f2;padding:5px 14px;font-size:11px;font-weight:bold;color:#094d47;letter-spacing:0.08em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    &#9679;&nbsp; 현대제철 리더십 교육 F/U
+                  </td>
+                </tr>
+              </table>
+              <!-- Title -->
+              <h1 style=""margin:16px 0 8px 0;font-size:24px;font-weight:bold;line-height:1.35;color:#091e2f;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">박정수님 현대제철 리더십 교육 후속 안내</h1>
+              <!-- Recipient info -->
+              <p style=""margin:0;font-size:14px;line-height:1.7;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">박정수&#xB2D8; &middot; 인천도시가스 총무부 &middot; 계장</p>
+            </td>
+          </tr>
+
+          <!-- ========== BODY ========== -->
+          <tr>
+            <td style=""padding:30px 36px 10px 36px;"">
+              <p style=""margin:0 0 18px 0;font-size:15px;font-weight:bold;color:#094d47;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">박정수&#xB2D8; &#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
+              <p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">박정수님, 현대제철 리더십 교육에 참여해주셔서 감사합니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">인천도시가스에서 실무자가 안심하고 AI를 활용할 수 있도록 보안 가이드를 개발하는 데 큰 기여를 하실 것이라 확신합니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">교육에서 언급된 데이터 경계 설정 원칙을 바탕으로 액션플램을 실현하시면 AI 활용 속도와 정보 보안을 동시에 달성하실 수 있을 것입니다.</p>
+            </td>
+          </tr>
+
+          <!-- ========== INFO CARDS (2x2 table) ========== -->
+          <tr>
+            <td style=""padding:0 36px 10px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <!-- Card 1: Action Plan -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xD575;&#xC2EC; &#xC2E4;&#xD589;&#xACC4;&#xD68D;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">Action Plan 데이터 비식별화 기준과 외부 서비스 업로드 원칙을 정리한다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 2: Expected Behavior -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAE30;&#xB300; &#xD589;&#xB3D9;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">AI 활용 속도를 유지하면서도 민감정보 노출 리스크를 줄인다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Card 3: Key Takeaway -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAD50;&#xC721; &#xD575;&#xC2EC; &#xD3EC;&#xC778;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">자동화보다 먼저 데이터 경계와 검수 단계를 정의해야 한다는 점</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 4: Comment -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xCC38;&#xAC00;&#xC790; &#xCF54;&#xBA58;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">편의성보다 데이터 통제 원칙을 먼저 설명한 점이 신뢰를 높였다. 중간 Q&amp;A 시간을 한 번 더 넣어주면 이해가 더 안정될 것 같다. 다만 오전 기술 동향 파트는 초급자에게 조금 빠르게 느껴질 수 있었다.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== NEXT ACTION ========== -->
+          <tr>
+            <td style=""padding:6px 36px 20px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#0d8f84;"">
+                <tr>
+                  <td style=""padding:20px 24px;"">
+                    <p style=""margin:0 0 6px 0;font-size:11px;font-weight:bold;letter-spacing:0.1em;color:#b8e6e0;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">NEXT ACTION</p>
+                    <p style=""margin:0;font-size:16px;line-height:1.8;font-weight:bold;color:#ffffff;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">데이터 비식별화 기준과 외부 서비스 업로드 원칙 정리 문서를 다음 주까지 완성하여 현대제철 컬처디자인팀 정유라 매니저에게 제출</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== SIGNATURE ========== -->
+          <tr>
+            <td style=""padding:0 36px 36px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""border-top:1px solid #dae4ec;"">
+                <tr>
+                  <td style=""padding:20px 0 0 0;font-size:13px;line-height:1.9;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    감사합니다.<br />
+                    정유라<br />
+                    현대제철 컬처디자인팀
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+",sample_data\교육_액션플랜_데이터_feedback_output_html_preview\010_박정수.html,completed,glm-4.5-air,2026-04-17T14:31:06
+P011,오채윤,participant011@hrd-ai-demo.example.com,코웨이,Tech Talent TF,선임연구원,디지털인재,반복 운영 업무를 줄이고 참가자 경험을 한 번에 정돈된 형태로 제공하겠다,교육 안내 페이지를 단일 마이크로사이트로 재구성하고 FAQ를 표준화,"참가자가 일정, 준비물, 과제 안내를 스스로 확인해 반복 문의를 줄인다",FAQ와 안내 페이지를 분리하지 않고 한 흐름으로 설계한 부분이 특히 실무적이었다. 강의-시연-실습이 하나의 흐름으로 이어져 집중하기 쉬웠다. 현업 사례가 더 세분화되면 우리 조직에 옮겨 담기 쉬울 것 같다.,정확성이 중요한 정보는 챗봇보다 정적 페이지가 더 안정적이라는 점,한충석,현대제철 리더십 교육 후속 지원,"오채윤 님께서 제시한 단일 마이크로사이트 구축 방안은 참가자 경험 개선에 큰 도움이 될 것입니다. FAQ와 안내 페이지 통합 설계에 대한 실무적 평가 감사드리며, 이를 통해 반복 업무를 효과적으로 줄이실 수 있을 것입니다.",단일 마이크로사이트 구축 및 FAQ 표준화 작업 진행,ok,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"" lang=""ko"">
+<head>
+  <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>현대제철 리더십 교육 후속 지원</title>
+  <!--[if mso]>
+  <style type=""text/css"">
+    table { border-collapse: collapse; }
+    td { font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <![endif]-->
+</head>
+<body style=""margin:0;padding:0;background-color:#eaf1f5;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;line-height:1.7;color:#0e2233;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;"">
+
+  <!-- Outer wrapper table for centering -->
+  <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#eaf1f5;"">
+    <tr>
+      <td align=""center"" style=""padding:40px 16px 50px 16px;"">
+
+        <!--[if mso]><table role=""presentation"" width=""680"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center""><tr><td><![endif]-->
+        <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width:680px;margin:0 auto;background-color:#ffffff;border:1px solid #d4e1e8;"">
+
+          <!-- ========== HEADER ========== -->
+          <tr>
+            <td style=""padding:34px 36px 24px 36px;background-color:#f3f9f8;border-bottom:2px solid #0d8f84;"">
+              <!-- Eyebrow badge -->
+              <table role=""presentation"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <td style=""background-color:#e6f4f2;padding:5px 14px;font-size:11px;font-weight:bold;color:#094d47;letter-spacing:0.08em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    &#9679;&nbsp; 현대제철 리더십 교육 F/U
+                  </td>
+                </tr>
+              </table>
+              <!-- Title -->
+              <h1 style=""margin:16px 0 8px 0;font-size:24px;font-weight:bold;line-height:1.35;color:#091e2f;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">현대제철 리더십 교육 후속 지원</h1>
+              <!-- Recipient info -->
+              <p style=""margin:0;font-size:14px;line-height:1.7;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">오채윤&#xB2D8; &middot; 코웨이 Tech Talent TF &middot; 선임연구원</p>
+            </td>
+          </tr>
+
+          <!-- ========== BODY ========== -->
+          <tr>
+            <td style=""padding:30px 36px 10px 36px;"">
+              <p style=""margin:0 0 18px 0;font-size:15px;font-weight:bold;color:#094d47;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">오채윤&#xB2D8; &#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
+              <p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">오채윤 님께서 제시한 단일 마이크로사이트 구축 방안은 참가자 경험 개선에 큰 도움이 될 것입니다.</p>
+<p style=""margin:0 0 14px 0;font-size:15px;line-height:1.9;color:#0e2233;"">FAQ와 안내 페이지 통합 설계에 대한 실무적 평가 감사드리며, 이를 통해 반복 업무를 효과적으로 줄이실 수 있을 것입니다.</p>
+            </td>
+          </tr>
+
+          <!-- ========== INFO CARDS (2x2 table) ========== -->
+          <tr>
+            <td style=""padding:0 36px 10px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+                <tr>
+                  <!-- Card 1: Action Plan -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xD575;&#xC2EC; &#xC2E4;&#xD589;&#xACC4;&#xD68D;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">교육 안내 페이지를 단일 마이크로사이트로 재구성하고 FAQ를 표준화</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 2: Expected Behavior -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAE30;&#xB300; &#xD589;&#xB3D9;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">참가자가 일정, 준비물, 과제 안내를 스스로 확인해 반복 문의를 줄인다</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <!-- Card 3: Key Takeaway -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 6px 12px 0;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xAD50;&#xC721; &#xD575;&#xC2EC; &#xD3EC;&#xC778;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">정확성이 중요한 정보는 챗봇보다 정적 페이지가 더 안정적이라는 점</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- Card 4: Comment -->
+                  <td width=""50%"" valign=""top"" style=""padding:0 0 12px 6px;"">
+                    <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#f7fafa;border:1px solid #dae4ec;"">
+                      <tr>
+                        <td style=""padding:16px 18px;"">
+                          <p style=""margin:0 0 8px 0;font-size:11px;font-weight:bold;color:#0d8f84;letter-spacing:0.06em;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">&#9654; &#xCC38;&#xAC00;&#xC790; &#xCF54;&#xBA58;&#xD2B8;</p>
+                          <p style=""margin:0;font-size:14px;line-height:1.8;color:#0e2233;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">FAQ와 안내 페이지를 분리하지 않고 한 흐름으로 설계한 부분이 특히 실무적이었다. 강의-시연-실습이 하나의 흐름으로 이어져 집중하기 쉬웠다. 현업 사례가 더 세분화되면 우리 조직에 옮겨 담기 쉬울 것 같다.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== NEXT ACTION ========== -->
+          <tr>
+            <td style=""padding:6px 36px 20px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color:#0d8f84;"">
+                <tr>
+                  <td style=""padding:20px 24px;"">
+                    <p style=""margin:0 0 6px 0;font-size:11px;font-weight:bold;letter-spacing:0.1em;color:#b8e6e0;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">NEXT ACTION</p>
+                    <p style=""margin:0;font-size:16px;line-height:1.8;font-weight:bold;color:#ffffff;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">단일 마이크로사이트 구축 및 FAQ 표준화 작업 진행</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ========== SIGNATURE ========== -->
+          <tr>
+            <td style=""padding:0 36px 36px 36px;"">
+              <table role=""presentation"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""border-top:1px solid #dae4ec;"">
+                <tr>
+                  <td style=""padding:20px 0 0 0;font-size:13px;line-height:1.9;color:#4a6a82;font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', 'Segoe UI', Helvetica, Arial, sans-serif;"">
+                    감사합니다.<br />
+                    한충석<br />
+                    현대제철 컬처디자인팀
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+",sample_data\교육_액션플랜_데이터_feedback_output_html_preview\011_오채윤.html,completed,glm-4.5-air,2026-04-17T14:31:33
+P012,조주영,participant012@hrd-ai-demo.example.com,풍산,교육문화팀,대리,HRD,교육 직후의 의지를 사라지지 않게 만들고 실행 전환율을 높이겠다,교육 종료 후 2주 단위 액션플랜 체크인 메시지를 자동화,수강자가 교육 직후 세운 계획을 잊지 않고 팀 내 공유까지 이어가게 한다,개인화 메시지를 자동화하되 사람 검수를 남기는 구조가 설득력 있었다. 실습 전 사전 안내가 조금 더 구조화되면 따라가기 한결 수월하겠다. 이론과 실습의 난이도 균형은 전반적으로 적절했다.,초안 자동화 후 사람이 톤을 통제하는 방식이 현실적이라는 점,박서윤,,,,,,,,,
+P013,강민서,participant013@hrd-ai-demo.example.com,한빛에너지,인재개발팀,과장,인재육성,보고서 작성 시간을 줄이고 데이터 기반으로 다음 차수 개선안을 제시하겠다,만족도 조사 데이터를 월별 대시보드와 1페이지 요약 보고서로 연결,정량 점수와 정성 코멘트를 함께 보며 다음 차수 개선 우선순위를 빠르게 합의한다,정성 의견을 숫자 옆에 붙여 스토리로 보여주는 예시가 인상 깊었다. 오전 이론 파트는 비전공자 기준으로 속도가 조금 빨랐다. 다만 오전 기술 동향 파트는 초급자에게 조금 빠르게 느껴질 수 있었다.,정량과 정성을 같이 봐야 의사결정이 빨라진다는 점,김민주,,,,,,,,,
+P014,고태윤,participant014@hrd-ai-demo.example.com,동해정밀,교육혁신파트,차장,HRD,길게 쌓인 VOC를 읽는 시간보다 의사결정 시간을 더 확보하겠다,정성 코멘트에서 핵심 토픽 3개와 대표 인용문 3개를 자동 추출,운영진이 불만 포인트와 강점을 빠르게 파악해 다음 차수 반영 속도를 높인다,정성데이터를 너무 무겁게 다루지 않아도 된다는 설명이 부담을 줄여줬다. 강사의 설명이 기술 용어를 과하게 쓰지 않아 이해가 쉬웠다. 다만 오전 기술 동향 파트는 초급자에게 조금 빠르게 느껴질 수 있었다.,인용문 3개와 토픽 3개만 잘 뽑아도 보고 품질이 높아진다는 점,이도현,,,,,,,,,
+P015,구서현,participant015@hrd-ai-demo.example.com,세림케미칼,HRD기획팀,대리,HRD,교육 효과를 운영 기록이 아니라 경영 의사결정 자료로 전환하겠다,경영진 공유용으로 5장 내외의 교육 효과 요약 슬라이드 템플릿을 만든다,교육 결과를 숫자와 실행 과제로 연결해 부서 리더 보고 속도를 높인다,보고용 스토리라인을 먼저 잡고 데이터를 넣는 방식이 도움이 됐다. 교육 후 실행으로 이어지는 그림을 잡는 데 큰 도움이 됐다. 중간 Q&A 시간을 한 번 더 넣어주면 이해가 더 안정될 것 같다.,숫자와 서술형 의견을 한 장의 스토리로 묶어야 경영진이 이해하기 쉽다는 점,정유라,,,,,,,,,
+P016,권도현,participant016@hrd-ai-demo.example.com,넥스트모빌리티,조직문화팀,매니저,조직문화,개인 역량에 의존하던 AI 활용을 팀 단위의 재사용 자산으로 남기겠다,사내에서 자주 쓰는 프롬프트를 역할·맥락·입력자료·출력형식 템플릿으로 정리,담당자마다 품질 편차가 줄고 비슷한 작업을 반복할 때 초안 속도가 빨라진다,프롬프트를 감으로 쓰지 않고 구조화하는 법을 배운 점이 유용했다. 현업 사례가 더 세분화되면 우리 조직에 옮겨 담기 쉬울 것 같다. 다만 오전 기술 동향 파트는 초급자에게 조금 빠르게 느껴질 수 있었다.,출력형식과 품질기준을 먼저 정해야 결과가 안정된다는 점,한충석,,,,,,,,,
+P017,김나율,participant017@hrd-ai-demo.example.com,미래소재,DX인재육성파트,선임,DX교육,사내 교육 운영에서도 웹 기반 정보 제공 방식을 자연스럽게 정착시키겠다,GitHub Pages 기반 교육 안내 페이지 제작 프로세스를 팀 표준으로 정리,교육 안내 페이지를 빠르게 배포하고 모바일 접근성을 기본값으로 맞춘다,페이지를 단순히 예쁘게 만드는 것이 아니라 운영 리스크를 줄이는 관점이 좋았다. 실습 전 사전 안내가 조금 더 구조화되면 따라가기 한결 수월하겠다. 다만 오전 기술 동향 파트는 초급자에게 조금 빠르게 느껴질 수 있었다.,모바일 우선 설계가 운영 효율과 직결된다는 점,박서윤,,,,,,,,,
+P018,김도윤,participant018@hrd-ai-demo.example.com,프라임메디텍,교육운영팀,과장,HRD,한 번의 교육을 일회성 이벤트가 아니라 행동 변화의 시작점으로 만들겠다,수강 후 4주 실행 습관을 위한 주차별 체크인 시트와 리마인드 메일을 만든다,참가자가 계획을 선언에 그치지 않고 작은 실험을 이어가도록 유도한다,교육 직후 작은 실험부터 설계하라는 메시지가 가장 현실적으로 다가왔다. 도구 설명보다 업무 문제 정의에 초점을 둔 구성이 실무적이었다. 이론과 실습의 난이도 균형은 전반적으로 적절했다.,작게 시작해 빠르게 검증하는 접근이 현업 적용 장벽을 낮춘다는 점,김민주,,,,,,,,,
+P019,김서우,participant019@hrd-ai-demo.example.com,하이브릭스건설,인재전략팀,차장,인재육성,좋은 사례가 묻히지 않도록 학습 자산으로 반복 활용하겠다,"사내 강사와 우수 사례 인터뷰를 FAQ, 사례 카드, 홍보 문안으로 재활용",교육의 기대효과를 수강 전부터 명확히 전달해 참여 의지를 높인다,기존 사례를 재가공해 여러 산출물로 확장하는 흐름이 특히 인상 깊었다. 강사의 설명이 기술 용어를 과하게 쓰지 않아 이해가 쉬웠다. 실습 데이터 예시가 한두 건 더 있었으면 비교 설명이 쉬웠을 것 같다.,AI를 초안 작성에 쓰고 사람은 사실관계와 맥락을 최종 점검하면 된다는 점,이도현,,,,,,,,,
+P020,김예린,participant020@hrd-ai-demo.example.com,온누리푸드,현장교육팀,대리,HRD,실무자가 안심하고 AI를 쓰도록 보안 가이드와 운영 기준을 함께 만들겠다,Action Plan 데이터 비식별화 기준과 외부 서비스 업로드 원칙을 정리한다,AI 활용 속도를 유지하면서도 민감정보 노출 리스크를 줄인다,편의성보다 데이터 통제 원칙을 먼저 설명한 점이 신뢰를 높였다. 중간 Q&A 시간을 한 번 더 넣어주면 이해가 더 안정될 것 같다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.,자동화보다 먼저 데이터 경계와 검수 단계를 정의해야 한다는 점,정유라,,,,,,,,,
+P021,김주원,participant021@hrd-ai-demo.example.com,블루웨이브반도체,리더십개발팀,책임,리더십,반복 운영 업무를 줄이고 참가자 경험을 한 번에 표준 운영안으로 정착시키겠다,리더십 교육 안내 페이지를 단일 마이크로사이트로 재구성하고 FAQ를 표준화,"참가자가 일정, 준비물, 과제 안내를 스스로 확인해 반복 문의를 줄인다",FAQ와 안내 페이지를 분리하지 않고 한 흐름으로 설계한 부분이 특히 실무적이었다. 이론과 실습의 난이도 균형은 전반적으로 적절했다.,정확성이 중요한 정보는 챗봇보다 정적 페이지가 더 안정적이라는 점,한충석,,,,,,,,,
+P022,남지후,participant022@hrd-ai-demo.example.com,새한인프라,교육문화팀,매니저,HRD,교육 직후의 의지를 사라지지 않게 만들고 실행 전환율을 높이겠다,교육 종료 후 2주 단위 액션플랜 체크인 메시지를 자동화,수강자가 교육 직후 세운 계획을 잊지 않고 팀 내 공유까지 이어가게 한다,개인화 메시지를 자동화하되 사람 검수를 남기는 구조가 설득력 있었다. 실습 전 사전 안내가 조금 더 구조화되면 따라가기 한결 수월하겠다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.,초안 자동화 후 사람이 톤을 통제하는 방식이 현실적이라는 점,박서윤,,,,,,,,,
+P023,노유진,participant023@hrd-ai-demo.example.com,다온리테일,HR혁신셀,선임,HRD,보고서 작성 시간을 줄이고 데이터 기반으로 다음 차수 개선안을 제시하겠다,만족도 조사 데이터를 월별 대시보드와 1페이지 요약 보고서로 연결,정량 점수와 정성 코멘트를 함께 보며 다음 차수 개선 우선순위를 빠르게 합의한다,정성 의견을 숫자 옆에 붙여 스토리로 보여주는 예시가 인상 깊었다. 도구 설명보다 업무 문제 정의에 초점을 둔 구성이 실무적이었다. 오전 이론 파트는 비전공자 기준으로 속도가 조금 빨랐다.,정량과 정성을 같이 봐야 의사결정이 빨라진다는 점,김민주,,,,,,,,,
+P024,문서윤,participant024@hrd-ai-demo.example.com,청운공업,조직개발팀,과장,HRD,길게 쌓인 VOC를 읽는 시간보다 의사결정 시간을 더 확보하겠다,정성 코멘트에서 핵심 토픽 3개와 대표 인용문 3개를 자동 추출,운영진이 불만 포인트와 강점을 빠르게 파악해 다음 차수 반영 속도를 높인다,정성데이터를 너무 무겁게 다루지 않아도 된다는 설명이 부담을 줄여줬다. 강사의 설명이 기술 용어를 과하게 쓰지 않아 이해가 쉬웠다. 실습 데이터 예시가 한두 건 더 있었으면 비교 설명이 쉬웠을 것 같다.,인용문 3개와 토픽 3개만 잘 뽑아도 보고 품질이 높아진다는 점,이도현,,,,,,,,,
+P025,민하준,participant025@hrd-ai-demo.example.com,에이펙스물류,인재육성팀,책임매니저,인재육성,교육 효과를 운영 기록이 아니라 경영 의사결정 자료로 전환하겠다,경영진 공유용으로 5장 내외의 교육 효과 요약 슬라이드 템플릿을 만든다,교육 결과를 숫자와 실행 과제로 연결해 임원 보고 속도를 높인다,보고용 스토리라인을 먼저 잡고 데이터를 넣는 방식이 도움이 됐다. 교육 후 실행으로 이어지는 그림을 잡는 데 큰 도움이 됐다. 중간 Q&A 시간을 한 번 더 넣어주면 이해가 더 안정될 것 같다.,숫자와 서술형 의견을 한 장의 스토리로 묶어야 경영진이 이해하기 쉽다는 점,정유라,,,,,,,,,
+P026,박가은,participant026@hrd-ai-demo.example.com,그린코어바이오,학습전략파트,대리,HRD,개인 역량에 의존하던 AI 활용을 팀 단위의 재사용 자산으로 남기겠다,사내에서 자주 쓰는 프롬프트를 역할·맥락·입력자료·출력형식 템플릿으로 정리,담당자마다 품질 편차가 줄고 비슷한 작업을 반복할 때 초안 속도가 빨라진다,프롬프트를 감으로 쓰지 않고 구조화하는 법을 배운 점이 유용했다. 강의-시연-실습이 하나의 흐름으로 이어져 집중하기 쉬웠다. 현업 사례가 더 세분화되면 우리 조직에 옮겨 담기 쉬울 것 같다.,출력형식과 품질기준을 먼저 정해야 결과가 안정된다는 점,한충석,,,,,,,,,
+P027,박도훈,participant027@hrd-ai-demo.example.com,리버스틸솔루션,현업전문가육성팀,차장,HRD,사내 교육 운영에서도 웹 기반 정보 제공 방식을 자연스럽게 정착시키겠다,GitHub Pages 기반 교육 안내 페이지 제작 프로세스를 팀 표준으로 정리,교육 안내 페이지를 빠르게 배포하고 모바일 접근성을 기본값으로 맞춘다,페이지를 단순히 예쁘게 만드는 것이 아니라 운영 리스크를 줄이는 관점이 좋았다. 실습 전 사전 안내가 조금 더 구조화되면 따라가기 한결 수월하겠다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.,모바일 우선 설계가 운영 효율과 직결된다는 점,박서윤,,,,,,,,,
+P028,박서율,participant028@hrd-ai-demo.example.com,케이브릿지파이낸셜,인재성장팀,매니저,인재육성,한 번의 교육을 일회성 이벤트가 아니라 행동 변화의 시작점으로 만들겠다,수강 후 4주 실행 습관을 위한 주차별 체크인 시트와 리마인드 메일을 만든다,참가자가 계획을 선언에 그치지 않고 작은 실험을 이어가도록 유도한다,교육 직후 작은 실험부터 설계하라는 메시지가 가장 현실적으로 다가왔다. 도구 설명보다 업무 문제 정의에 초점을 둔 구성이 실무적이었다. 이론과 실습의 난이도 균형은 전반적으로 적절했다.,작게 시작해 빠르게 검증하는 접근이 현업 적용 장벽을 낮춘다는 점,김민주,,,,,,,,,
+P029,서민준,participant029@hrd-ai-demo.example.com,유니온시스템즈,DX교육TF,선임,DX교육,좋은 사례가 묻히지 않도록 학습 자산으로 반복 활용하겠다,"사내 강사와 우수 사례 인터뷰를 FAQ, 사례 카드, 홍보 문안으로 재활용",교육의 기대효과를 수강 전부터 명확히 전달해 참여 의지를 높인다,기존 사례를 재가공해 여러 산출물로 확장하는 흐름이 특히 인상 깊었다. 강사의 설명이 기술 용어를 과하게 쓰지 않아 이해가 쉬웠다. 실습 데이터 예시가 한두 건 더 있었으면 비교 설명이 쉬웠을 것 같다.,AI를 초안 작성에 쓰고 사람은 사실관계와 맥락을 최종 점검하면 된다는 점,이도현,,,,,,,,,
+P030,손예담,participant030@hrd-ai-demo.example.com,하모니케어,교육기획팀,과장,HRD,실무자가 안심하고 AI를 쓰도록 보안 가이드와 운영 기준을 함께 만들겠다,Action Plan 데이터 비식별화 기준과 외부 서비스 업로드 원칙을 정리한다,AI 활용 속도를 유지하면서도 민감정보 노출 리스크를 줄인다,편의성보다 데이터 통제 원칙을 먼저 설명한 점이 신뢰를 높였다. 교육 후 실행으로 이어지는 그림을 잡는 데 큰 도움이 됐다. 중간 Q&A 시간을 한 번 더 넣어주면 이해가 더 안정될 것 같다.,자동화보다 먼저 데이터 경계와 검수 단계를 정의해야 한다는 점,정유라,,,,,,,,,
+P031,송다인,participant031@hrd-ai-demo.example.com,오션링크서비스,컬처디자인팀,매니저,조직문화,반복 운영 업무를 줄이고 참가자 경험을 한 번에 정돈된 형태로 제공하겠다,교육 안내 페이지를 단일 마이크로사이트로 재구성하고 FAQ를 표준화,"참가자가 일정, 준비물, 과제 안내를 스스로 확인해 반복 문의를 줄인다",FAQ와 안내 페이지를 분리하지 않고 한 흐름으로 설계한 부분이 특히 실무적이었다. 강의-시연-실습이 하나의 흐름으로 이어져 집중하기 쉬웠다. 다만 오전 기술 동향 파트는 초급자에게 조금 빠르게 느껴질 수 있었다.,정확성이 중요한 정보는 챗봇보다 정적 페이지가 더 안정적이라는 점,한충석,,,,,,,,,
+P032,신도윤,participant032@hrd-ai-demo.example.com,에코로직스,인사팀,대리,HR,교육 직후의 의지를 사라지지 않게 만들고 실행 전환율을 높이겠다,교육 종료 후 2주 단위 액션플랜 체크인 메시지를 자동화,수강자가 교육 직후 세운 계획을 잊지 않고 팀 내 공유까지 이어가게 한다,개인화 메시지를 자동화하되 사람 검수를 남기는 구조가 설득력 있었다. 실습 전 사전 안내가 조금 더 구조화되면 따라가기 한결 수월하겠다. 이론과 실습의 난이도 균형은 전반적으로 적절했다.,초안 자동화 후 사람이 톤을 통제하는 방식이 현실적이라는 점,박서윤,,,,,,,,,
+P033,안채린,participant033@hrd-ai-demo.example.com,한결테크,리더십운영파트,선임,리더십,보고서 작성 시간을 줄이고 데이터 기반으로 다음 차수 개선안을 제시하겠다,만족도 조사 데이터를 월별 대시보드와 1페이지 요약 보고서로 연결,정량 점수와 정성 코멘트를 함께 보며 다음 차수 개선 우선순위를 빠르게 합의한다,정성 의견을 숫자 옆에 붙여 스토리로 보여주는 예시가 인상 깊었다. 도구 설명보다 업무 문제 정의에 초점을 둔 구성이 실무적이었다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.,정량과 정성을 같이 봐야 의사결정이 빨라진다는 점,김민주,,,,,,,,,
+P034,양지훈,participant034@hrd-ai-demo.example.com,메가툴즈,교육지원팀,차장,HRD,길게 쌓인 VOC를 읽는 시간보다 의사결정 시간을 더 확보하겠다,정성 코멘트에서 핵심 토픽 3개와 대표 인용문 3개를 자동 추출,운영진이 불만 포인트와 강점을 빠르게 파악해 다음 차수 반영 속도를 높인다,정성데이터를 너무 무겁게 다루지 않아도 된다는 설명이 부담을 줄여줬다. 강사의 설명이 기술 용어를 과하게 쓰지 않아 이해가 쉬웠다. 실습 데이터 예시가 한두 건 더 있었으면 비교 설명이 쉬웠을 것 같다.,인용문 3개와 토픽 3개만 잘 뽑아도 보고 품질이 높아진다는 점,이도현,,,,,,,,,
+P035,엄세아,participant035@hrd-ai-demo.example.com,더블유모터스,인재개발실,과장,인재육성,교육 효과를 운영 기록이 아니라 경영 의사결정 자료로 전환하겠다,경영진 공유용으로 5장 내외의 교육 효과 요약 슬라이드 템플릿을 만든다,교육 결과를 숫자와 실행 과제로 연결해 임원 보고 속도를 높인다,보고용 스토리라인을 먼저 잡고 데이터를 넣는 방식이 도움이 됐다. 교육 후 실행으로 이어지는 그림을 잡는 데 큰 도움이 됐다. 중간 Q&A 시간을 한 번 더 넣어주면 이해가 더 안정될 것 같다.,숫자와 서술형 의견을 한 장의 스토리로 묶어야 경영진이 이해하기 쉽다는 점,정유라,,,,,,,,,
+P036,오유찬,participant036@hrd-ai-demo.example.com,테라바이오랩,조직문화혁신팀,매니저,조직문화,개인 역량에 의존하던 AI 활용을 팀 단위의 재사용 자산으로 남기겠다,사내에서 자주 쓰는 프롬프트를 역할·맥락·입력자료·출력형식 템플릿으로 정리,담당자마다 품질 편차가 줄고 비슷한 작업을 반복할 때 초안 속도가 빨라진다,프롬프트를 감으로 쓰지 않고 구조화하는 법을 배운 점이 유용했다. 강의-시연-실습이 하나의 흐름으로 이어져 집중하기 쉬웠다. 현업 사례가 더 세분화되면 우리 조직에 옮겨 담기 쉬울 것 같다.,출력형식과 품질기준을 먼저 정해야 결과가 안정된다는 점,한충석,,,,,,,,,
+P037,윤가람,participant037@hrd-ai-demo.example.com,스카이링크서비스,교육운영팀,선임,HRD,사내 교육 운영에서도 웹 기반 정보 제공 방식을 자연스럽게 정착시키겠다,GitHub Pages 기반 교육 안내 페이지 제작 프로세스를 팀 표준으로 정리,교육 안내 페이지를 빠르게 배포하고 모바일 접근성을 기본값으로 맞춘다,페이지를 단순히 예쁘게 만드는 것이 아니라 운영 리스크를 줄이는 관점이 좋았다. 현업에 바로 가져갈 산출물이 분명해서 만족도가 높았다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.,모바일 우선 설계가 운영 효율과 직결된다는 점,박서윤,,,,,,,,,
+P038,이규빈,participant038@hrd-ai-demo.example.com,광명소재,현장혁신사무국,책임,HRD,한 번의 교육을 일회성 이벤트가 아니라 행동 변화의 시작점으로 만들겠다,수강 후 4주 실행 습관을 위한 주차별 체크인 시트와 리마인드 메일을 만든다,참가자가 계획을 선언에 그치지 않고 작은 실험을 이어가도록 유도한다,교육 직후 작은 실험부터 설계하라는 메시지가 가장 현실적으로 다가왔다. 도구 설명보다 업무 문제 정의에 초점을 둔 구성이 실무적이었다. 이론과 실습의 난이도 균형은 전반적으로 적절했다.,작게 시작해 빠르게 검증하는 접근이 현업 적용 장벽을 낮춘다는 점,김민주,,,,,,,,,
+P039,이다온,participant039@hrd-ai-demo.example.com,퍼스트렌탈,인재성장파트,대리,인재육성,좋은 사례가 묻히지 않도록 학습 자산으로 반복 활용하겠다,"사내 강사와 우수 사례 인터뷰를 FAQ, 사례 카드, 홍보 문안으로 재활용",교육의 기대효과를 수강 전부터 명확히 전달해 참여 의지를 높인다,기존 사례를 재가공해 여러 산출물로 확장하는 흐름이 특히 인상 깊었다. 강사의 설명이 기술 용어를 과하게 쓰지 않아 이해가 쉬웠다. 실습 데이터 예시가 한두 건 더 있었으면 비교 설명이 쉬웠을 것 같다.,AI를 초안 작성에 쓰고 사람은 사실관계와 맥락을 최종 점검하면 된다는 점,이도현,,,,,,,,,
+P040,이서현,participant040@hrd-ai-demo.example.com,씨앤브릿지,직무교육팀,과장,HRD,실무자가 안심하고 AI를 쓰도록 보안 가이드와 운영 기준을 함께 만들겠다,Action Plan 데이터 비식별화 기준과 외부 서비스 업로드 원칙을 정리한다,AI 활용 속도를 유지하면서도 민감정보 노출 리스크를 줄인다,편의성보다 데이터 통제 원칙을 먼저 설명한 점이 신뢰를 높였다. 교육 후 실행으로 이어지는 그림을 잡는 데 큰 도움이 됐다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.,자동화보다 먼저 데이터 경계와 검수 단계를 정의해야 한다는 점,정유라,,,,,,,,,
+P041,이정민,participant041@hrd-ai-demo.example.com,솔라테크,교육문화팀,차장,HRD,반복 운영 업무를 줄이고 참가자 경험을 한 번에 표준 운영안으로 정착시키겠다,교육 안내 페이지를 단일 마이크로사이트로 재구성하고 FAQ를 표준화,"참가자가 일정, 준비물, 과제 안내를 스스로 확인해 반복 문의를 줄인다",FAQ와 안내 페이지를 분리하지 않고 한 흐름으로 설계한 부분이 특히 실무적이었다. 강의-시연-실습이 하나의 흐름으로 이어져 집중하기 쉬웠다. 이론과 실습의 난이도 균형은 전반적으로 적절했다.,정확성이 중요한 정보는 챗봇보다 정적 페이지가 더 안정적이라는 점,한충석,,,,,,,,,
+P042,임다혜,participant042@hrd-ai-demo.example.com,모던로지스,HRD혁신팀,매니저,HRD,교육 직후의 의지를 사라지지 않게 만들고 실행 전환율을 높이겠다,교육 종료 후 2주 단위 액션플랜 체크인 메시지를 자동화,수강자가 교육 직후 세운 계획을 잊지 않고 팀 내 공유까지 이어가게 한다,개인화 메시지를 자동화하되 사람 검수를 남기는 구조가 설득력 있었다. 현업에 바로 가져갈 산출물이 분명해서 만족도가 높았다. 이론과 실습의 난이도 균형은 전반적으로 적절했다.,초안 자동화 후 사람이 톤을 통제하는 방식이 현실적이라는 점,박서윤,,,,,,,,,
+P043,장민혁,participant043@hrd-ai-demo.example.com,알파메탈,리더십개발팀,책임,리더십,보고서 작성 시간을 줄이고 데이터 기반으로 다음 차수 개선안을 정례 보고 체계로 연결하겠다,만족도 조사 데이터를 월별 대시보드와 1페이지 요약 보고서로 연결,정량 점수와 정성 코멘트를 함께 보며 다음 차수 개선 우선순위를 빠르게 합의한다,정성 의견을 숫자 옆에 붙여 스토리로 보여주는 예시가 인상 깊었다. 오전 이론 파트는 비전공자 기준으로 속도가 조금 빨랐다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.,정량과 정성을 같이 봐야 의사결정이 빨라진다는 점,김민주,,,,,,,,,
+P044,전서윤,participant044@hrd-ai-demo.example.com,케어플러스,학습경험디자인팀,선임,HRD,길게 쌓인 VOC를 읽는 시간보다 의사결정 시간을 더 확보하겠다,정성 코멘트에서 핵심 토픽 3개와 대표 인용문 3개를 자동 추출,운영진이 불만 포인트와 강점을 빠르게 파악해 다음 차수 반영 속도를 높인다,정성데이터를 너무 무겁게 다루지 않아도 된다는 설명이 부담을 줄여줬다. 실습 데이터 예시가 한두 건 더 있었으면 비교 설명이 쉬웠을 것 같다. 다만 오전 기술 동향 파트는 초급자에게 조금 빠르게 느껴질 수 있었다.,인용문 3개와 토픽 3개만 잘 뽑아도 보고 품질이 높아진다는 점,이도현,,,,,,,,,
+P045,정다혜,participant045@hrd-ai-demo.example.com,인피니트푸드,교육기획팀,대리,HRD,교육 효과를 운영 기록이 아니라 경영 의사결정 자료로 전환하겠다,경영진 공유용으로 5장 내외의 교육 효과 요약 슬라이드 템플릿을 만든다,교육 결과를 숫자와 실행 과제로 연결해 부서 리더 보고 속도를 높인다,보고용 스토리라인을 먼저 잡고 데이터를 넣는 방식이 도움이 됐다. 교육 후 실행으로 이어지는 그림을 잡는 데 큰 도움이 됐다. 중간 Q&A 시간을 한 번 더 넣어주면 이해가 더 안정될 것 같다.,숫자와 서술형 의견을 한 장의 스토리로 묶어야 경영진이 이해하기 쉽다는 점,정유라,,,,,,,,,
+P046,정우진,participant046@hrd-ai-demo.example.com,에코패브릭,조직문화팀,과장,조직문화,개인 역량에 의존하던 AI 활용을 팀 단위의 재사용 자산으로 남기겠다,사내에서 자주 쓰는 프롬프트를 역할·맥락·입력자료·출력형식 템플릿으로 정리,담당자마다 품질 편차가 줄고 비슷한 작업을 반복할 때 초안 속도가 빨라진다,프롬프트를 감으로 쓰지 않고 구조화하는 법을 배운 점이 유용했다. 현업 사례가 더 세분화되면 우리 조직에 옮겨 담기 쉬울 것 같다. 기초 설명은 충분했지만 실습 난도는 한 단계 높여도 좋겠다고 느꼈다.,출력형식과 품질기준을 먼저 정해야 결과가 안정된다는 점,한충석,,,,,,,,,
+P047,조민아,participant047@hrd-ai-demo.example.com,한솔프레시,현업교육지원팀,매니저,HRD,사내 교육 운영에서도 웹 기반 정보 제공 방식을 자연스럽게 정착시키겠다,GitHub Pages 기반 교육 안내 페이지 제작 프로세스를 팀 표준으로 정리,교육 안내 페이지를 빠르게 배포하고 모바일 접근성을 기본값으로 맞춘다,페이지를 단순히 예쁘게 만드는 것이 아니라 운영 리스크를 줄이는 관점이 좋았다. 현업에 바로 가져갈 산출물이 분명해서 만족도가 높았다. 실습 전 사전 안내가 조금 더 구조화되면 따라가기 한결 수월하겠다.,모바일 우선 설계가 운영 효율과 직결된다는 점,박서윤,,,,,,,,,
+P048,최다온,participant048@hrd-ai-demo.example.com,제이원에너지,인재개발팀,선임,인재육성,한 번의 교육을 일회성 이벤트가 아니라 행동 변화의 시작점으로 만들겠다,수강 후 4주 실행 습관을 위한 주차별 체크인 시트와 리마인드 메일을 만든다,참가자가 계획을 선언에 그치지 않고 작은 실험을 이어가도록 유도한다,교육 직후 작은 실험부터 설계하라는 메시지가 가장 현실적으로 다가왔다. 오전 이론 파트는 비전공자 기준으로 속도가 조금 빨랐다. 다만 오전 기술 동향 파트는 초급자에게 조금 빠르게 느껴질 수 있었다.,작게 시작해 빠르게 검증하는 접근이 현업 적용 장벽을 낮춘다는 점,김민주,,,,,,,,,
+P049,최시우,participant049@hrd-ai-demo.example.com,브라이트로보틱스,DX전략교육팀,차장,DX교육,좋은 사례가 묻히지 않도록 학습 자산으로 반복 활용하겠다,"사내 강사와 우수 사례 인터뷰를 FAQ, 사례 카드, 홍보 문안으로 재활용",교육의 기대효과를 수강 전부터 명확히 전달해 참여 의지를 높인다,기존 사례를 재가공해 여러 산출물로 확장하는 흐름이 특히 인상 깊었다. 강사의 설명이 기술 용어를 과하게 쓰지 않아 이해가 쉬웠다. 이론과 실습의 난이도 균형은 전반적으로 적절했다.,AI를 초안 작성에 쓰고 사람은 사실관계와 맥락을 최종 점검하면 된다는 점,이도현,,,,,,,,,
+P050,하윤재,participant050@hrd-ai-demo.example.com,로하스인더스트리,교육문화혁신팀,대리,HRD,실무자가 안심하고 AI를 쓰도록 보안 가이드와 운영 기준을 함께 만들겠다,Action Plan 데이터 비식별화 기준과 외부 서비스 업로드 원칙을 정리한다,AI 활용 속도를 유지하면서도 민감정보 노출 리스크를 줄인다,편의성보다 데이터 통제 원칙을 먼저 설명한 점이 신뢰를 높였다. 교육 후 실행으로 이어지는 그림을 잡는 데 큰 도움이 됐다. 중간 Q&A 시간을 한 번 더 넣어주면 이해가 더 안정될 것 같다.,자동화보다 먼저 데이터 경계와 검수 단계를 정의해야 한다는 점,정유라,,,,,,,,,
