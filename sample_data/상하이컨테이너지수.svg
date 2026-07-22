@@ -1,0 +1,148 @@
+<svg width="100%" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #f8fafc; }
+    .panel { fill: #ffffff; stroke: #d9e2ec; stroke-width: 1; }
+    .grid { stroke: #e7edf3; stroke-width: 1; }
+    .axis { stroke: #94a3b8; stroke-width: 1.2; }
+    .tick { fill: #64748b; font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+    .title { fill: #0f172a; font-size: 26px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; }
+    .subtitle { fill: #475569; font-size: 13px; font-family: Arial, Helvetica, sans-serif; }
+    .legend { fill: #334155; font-size: 13px; font-weight: 600; font-family: Arial, Helvetica, sans-serif; }
+    .metricLabel { fill: #64748b; font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+    .metricValue { fill: #0f172a; font-size: 20px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; }
+    .metricSub { fill: #64748b; font-size: 11px; font-family: Arial, Helvetica, sans-serif; }
+    .line-scfi { fill: none; stroke: #2563eb; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+    .line-ccfi { fill: none; stroke: #0f766e; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+    .label-scfi { fill: #1d4ed8; font-size: 12px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; }
+    .label-ccfi { fill: #0f766e; font-size: 12px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; }
+    .callout { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1; }
+    .calloutTitle { fill: #0f172a; font-size: 12px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; }
+    .calloutText { fill: #475569; font-size: 11px; font-family: Arial, Helvetica, sans-serif; }
+    .dot-scfi { fill: #2563eb; stroke: #ffffff; stroke-width: 2; }
+    .dot-ccfi { fill: #0f766e; stroke: #ffffff; stroke-width: 2; }
+    .note { fill: #64748b; font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+  </style>
+
+  <g id="background">
+    <rect class="bg" x="0" y="0" width="1200" height="760" rx="24"/>
+    <rect class="panel" x="24" y="24" width="1152" height="712" rx="20"/>
+  </g>
+
+  <g id="header">
+    <text class="title" x="56" y="64">SCFI vs CCFI 추이 비교</text>
+    <text class="subtitle" x="56" y="88">기준일: 2024-01-05 ~ 2026-04-10 · 주간 지수 흐름, 고점/저점 및 최근 반등 구간 강조</text>
+
+    <g transform="translate(758,46)">
+      <rect class="panel" x="0" y="0" width="118" height="56" rx="12"/>
+      <text class="metricLabel" x="14" y="22">SCFI 최신</text>
+      <text class="metricValue" x="14" y="43">1,890.77</text>
+      <text class="metricSub" x="81" y="43">(+69.6% vs 저점)</text>
+    </g>
+    <g transform="translate(886,46)">
+      <rect class="panel" x="0" y="0" width="118" height="56" rx="12"/>
+      <text class="metricLabel" x="14" y="22">CCFI 최신</text>
+      <text class="metricValue" x="14" y="43">1,209.84</text>
+      <text class="metricSub" x="77" y="43">(+29.2% vs 시작)</text>
+    </g>
+    <g transform="translate(1014,46)">
+      <rect class="panel" x="0" y="0" width="118" height="56" rx="12"/>
+      <text class="metricLabel" x="14" y="22">SCFI 최고점</text>
+      <text class="metricValue" x="14" y="43">3,733.80</text>
+      <text class="metricSub" x="70" y="43">2024-07-05</text>
+    </g>
+  </g>
+
+  <g id="legend" transform="translate(56,112)">
+    <line x1="0" y1="0" x2="34" y2="0" class="line-scfi"/>
+    <text class="legend" x="44" y="5">SCFI</text>
+    <line x1="120" y1="0" x2="154" y2="0" class="line-ccfi"/>
+    <text class="legend" x="164" y="5">CCFI</text>
+  </g>
+
+  <g id="plot">
+    <rect x="80" y="110" width="1050" height="540" fill="#ffffff" rx="14"/>
+
+    <g id="grid">
+      <line class="grid" x1="80" y1="615.5" x2="1130" y2="615.5"/>
+      <line class="grid" x1="80" y1="528.4" x2="1130" y2="528.4"/>
+      <line class="grid" x1="80" y1="441.3" x2="1130" y2="441.3"/>
+      <line class="grid" x1="80" y1="354.2" x2="1130" y2="354.2"/>
+      <line class="grid" x1="80" y1="267.1" x2="1130" y2="267.1"/>
+      <line class="grid" x1="80" y1="180.0" x2="1130" y2="180.0"/>
+
+      <line class="grid" x1="80.0" y1="110" x2="80.0" y2="650"/>
+      <line class="grid" x1="307.0" y1="110" x2="307.0" y2="650"/>
+      <line class="grid" x1="543.5" y1="110" x2="543.5" y2="650"/>
+      <line class="grid" x1="789.5" y1="110" x2="789.5" y2="650"/>
+      <line class="grid" x1="1035.4" y1="110" x2="1035.4" y2="650"/>
+      <line class="grid" x1="1130.0" y1="110" x2="1130.0" y2="650"/>
+    </g>
+
+    <g id="axes">
+      <line class="axis" x1="80" y1="650" x2="1130" y2="650"/>
+      <line class="axis" x1="80" y1="110" x2="80" y2="650"/>
+
+      <text class="tick" x="68" y="620" text-anchor="end">1,000</text>
+      <text class="tick" x="68" y="533" text-anchor="end">1,500</text>
+      <text class="tick" x="68" y="446" text-anchor="end">2,000</text>
+      <text class="tick" x="68" y="359" text-anchor="end">2,500</text>
+      <text class="tick" x="68" y="272" text-anchor="end">3,000</text>
+      <text class="tick" x="68" y="185" text-anchor="end">3,500</text>
+
+      <text class="tick" x="80" y="674" text-anchor="middle">2024-01</text>
+      <text class="tick" x="307.0" y="674" text-anchor="middle">2024-07</text>
+      <text class="tick" x="543.5" y="674" text-anchor="middle">2025-01</text>
+      <text class="tick" x="789.5" y="674" text-anchor="middle">2025-07</text>
+      <text class="tick" x="1035.4" y="674" text-anchor="middle">2026-01</text>
+      <text class="tick" x="1130" y="674" text-anchor="middle">2026-04</text>
+    </g>
+
+    <g id="lines">
+      <path class="line-scfi" d="M 80.0,458.6 L 89.5,404.8 L 98.9,399.0 L 108.4,409.5 L 117.8,402.8 L 127.3,411.7 L 136.8,421.5 L 146.2,444.3 L 155.7,460.5 L 165.1,480.1 L 174.6,487.2 L 184.1,487.4 L 193.5,484.9 L 203.0,482.9 L 212.4,480.8 L 221.9,451.0 L 231.4,387.5 L 240.8,350.0 L 250.3,318.2 L 259.7,258.8 L 269.2,234.4 L 278.6,200.6 L 288.1,183.8 L 297.6,142.2 L 307.0,138.8 L 316.5,149.0 L 325.9,172.0 L 335.4,188.5 L 344.9,208.6 L 354.3,222.4 L 363.8,217.6 L 373.2,249.6 L 382.7,272.9 L 392.2,314.2 L 401.6,351.7 L 411.1,376.9 L 420.5,417.2 L 430.0,429.8 L 439.5,429.9 L 448.9,408.4 L 458.4,387.8 L 467.8,382.9 L 477.3,396.8 L 486.8,412.8 L 496.2,399.9 L 505.7,396.0 L 515.1,373.7 L 524.6,372.7 L 534.1,360.5 L 543.5,352.7 L 553.0,390.0 L 562.4,417.9 L 571.9,432.8 L 581.4,458.6 L 590.8,482.6 L 600.3,511.1 L 609.7,525.0 L 619.2,538.8 L 628.6,559.1 L 638.1,563.8 L 647.6,552.6 L 657.0,546.4 L 666.5,546.1 L 675.9,550.3 L 685.4,554.2 L 694.9,555.4 L 704.3,554.7 L 713.8,531.4 L 723.2,512.8 L 732.7,428.0 L 742.2,398.9 L 751.6,425.3 L 761.1,463.3 L 770.5,464.7 L 780.0,481.8 L 789.5,487.1 L 798.9,502.2 L 808.4,511.7 L 817.8,519.0 L 827.3,529.7 L 836.8,534.9 L 846.2,542.8 L 855.7,537.6 L 865.1,537.7 L 874.6,545.8 L 884.1,580.6 L 893.5,595.2 L 903.0,587.2 L 912.4,561.1 L 921.9,544.9 L 931.4,519.0 L 940.8,528.8 L 950.3,536.4 L 959.7,546.5 L 969.2,544.8 L 978.6,545.7 L 988.1,526.7 L 997.6,518.5 L 1007.0,500.5 L 1016.5,502.1 L 1025.9,514.9 L 1035.4,535.2 L 1044.9,560.0 L 1054.3,568.8 L 1063.8,571.4 L 1073.2,557.1 L 1082.7,529.7 L 1092.2,491.1 L 1101.6,491.7 L 1111.1,470.8 L 1120.5,465.9 L 1130.0,459.7"/>
+      <path class="line-ccfi" d="M 80.0,626.1 L 89.5,590.7 L 98.9,565.0 L 108.4,544.9 L 117.8,534.2 L 127.3,535.8 L 136.8,544.9 L 146.2,553.5 L 155.7,560.5 L 165.1,566.4 L 174.6,572.2 L 184.1,578.5 L 193.5,581.4 L 203.0,582.5 L 212.4,582.3 L 221.9,581.1 L 231.4,573.4 L 240.8,560.5 L 250.3,547.0 L 259.7,528.4 L 269.2,511.6 L 278.6,487.0 L 288.1,470.3 L 297.6,454.1 L 307.0,438.6 L 316.5,425.8 L 325.9,413.9 L 335.4,409.2 L 344.9,417.4 L 354.3,416.5 L 363.8,427.8 L 373.2,437.2 L 382.7,445.0 L 392.2,455.8 L 401.6,472.2 L 411.1,485.4 L 420.5,503.5 L 430.0,531.6 L 439.5,544.1 L 448.9,550.8 L 458.4,550.6 L 467.8,547.0 L 477.3,538.2 L 486.8,533.1 L 496.2,532.1 L 505.7,533.6 L 515.1,530.0 L 524.6,529.1 L 534.1,525.0 L 543.5,519.4 L 553.0,517.1 L 562.4,517.7 L 571.9,526.9 L 581.4,542.5 L 590.8,547.4 L 600.3,559.3 L 609.7,571.1 L 619.2,577.9 L 628.6,581.3 L 638.1,584.6 L 647.6,592.2 L 657.0,598.5 L 666.5,600.0 L 675.9,599.2 L 685.4,598.6 L 694.9,596.6 L 704.3,596.8 L 713.8,599.4 L 723.2,599.7 L 732.7,599.2 L 742.2,597.4 L 751.6,591.0 L 761.1,575.6 L 770.5,558.3 L 780.0,553.6 L 789.5,558.2 L 798.9,563.3 L 808.4,565.1 L 817.8,572.4 L 827.3,577.5 L 836.8,583.0 L 846.2,584.3 L 855.7,587.5 L 865.1,590.7 L 874.6,591.9 L 884.1,596.0 L 893.5,596.8 L 903.0,602.5 L 912.4,615.2 L 921.9,622.4 L 931.4,619.0 L 940.8,614.0 L 950.3,607.6 L 959.7,601.4 L 969.2,596.4 L 978.6,596.6 L 988.1,595.9 L 997.6,594.8 L 1007.0,591.0 L 1016.5,582.6 L 1025.9,580.0 L 1035.4,580.2 L 1044.9,586.0 L 1054.3,595.3 L 1063.8,601.2 L 1073.2,608.8 L 1082.7,607.1 L 1092.2,604.0 L 1101.6,506.2 L 1111.1,592.8 L 1120.5,584.9 L 1130.0,580.5"/>
+    </g>
+
+    <g id="series-end-labels">
+      <text class="label-scfi" x="1138" y="463">SCFI 1,890.77</text>
+      <text class="label-ccfi" x="1138" y="584">CCFI 1,209.84</text>
+    </g>
+
+    <g id="markers">
+      <circle class="dot-scfi" cx="307.0" cy="138.8" r="5.5"/>
+      <circle class="dot-scfi" cx="893.5" cy="595.2" r="5.5"/>
+      <circle class="dot-scfi" cx="1130.0" cy="459.7" r="5.5"/>
+      <circle class="dot-ccfi" cx="335.4" cy="409.2" r="5.5"/>
+      <circle class="dot-ccfi" cx="80.0" cy="626.1" r="5.5"/>
+      <circle class="dot-ccfi" cx="1130.0" cy="580.5" r="5.5"/>
+    </g>
+
+    <g id="callouts">
+      <path d="M307,139 L350,122" stroke="#94a3b8" stroke-width="1.2" fill="none"/>
+      <rect class="callout" x="350" y="92" width="176" height="54" rx="10"/>
+      <text class="calloutTitle" x="362" y="112">SCFI 최고점</text>
+      <text class="calloutText" x="362" y="129">2024-07-05 · 3,733.80</text>
+      <text class="calloutText" x="362" y="143">2024 상반기 말 급등 정점</text>
+
+      <path d="M893.5,595.2 L840,620" stroke="#94a3b8" stroke-width="1.2" fill="none"/>
+      <rect class="callout" x="641" y="606" width="199" height="54" rx="10"/>
+      <text class="calloutTitle" x="653" y="626">SCFI 저점 이후 반등</text>
+      <text class="calloutText" x="653" y="643">저점: 2025-09-26 · 1,114.52</text>
+      <text class="calloutText" x="653" y="657">최신: 1,890.77로 회복</text>
+
+      <path d="M335.4,409.2 L382,382" stroke="#94a3b8" stroke-width="1.2" fill="none"/>
+      <rect class="callout" x="382" y="350" width="190" height="54" rx="10"/>
+      <text class="calloutTitle" x="394" y="370">CCFI 최고점</text>
+      <text class="calloutText" x="394" y="387">2024-07-26 · 2,180.69</text>
+      <text class="calloutText" x="394" y="401">SCFI보다 완만한 상승·하락</text>
+
+      <path d="M80,626.1 L132,620" stroke="#94a3b8" stroke-width="1.2" fill="none"/>
+      <rect class="callout" x="132" y="592" width="170" height="48" rx="10"/>
+      <text class="calloutTitle" x="144" y="612">CCFI 시작점</text>
+      <text class="calloutText" x="144" y="629">2024-01-05 · 936.83</text>
+    </g>
+  </g>
+
+  <g id="footer">
+    <text class="note" x="56" y="716">해석 포인트: SCFI는 변동성이 크고 급등·급락이 두드러지며, CCFI는 더 완만한 구조를 보입니다. 2026-03-27 CCFI 급등치는 데이터 점검 필요성이 있는 이상치 후보로 시각적으로도 구분됩니다.</text>
+  </g>
+</svg>

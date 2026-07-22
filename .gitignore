@@ -16,6 +16,11 @@ __pycache__/
 *.vol1/
 *발표스크립트*
 *발표_스크립트*
+!*20260722*.pptx
+!*수정본*.pptx
+!*표반영본*.pptx
+!*발표스크립트*
+!SCRIPT_*.py
 
 # 3. 디자인 프로토타입 및 슬라이드 분석/OCR 작업 폴더
 /design/
@@ -24,9 +29,7 @@ __pycache__/
 # 4. 메모, 외부 유틸리티, 기타 이미지/PDF 참고자료
 메모.md
 추가메모.md
-*XLMultimail*
 *.zip
+!*XLMultimail*
 REFERENCE_*.pdf
-prereq_email.html
-*상하이*
-*.svg
+!*.svg

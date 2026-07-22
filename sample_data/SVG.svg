@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0B1F33" flood-opacity="0.10"/>
+    </filter>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#002B5C"/>
+      <stop offset="100%" stop-color="#004B8D"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E85D3F"/>
+      <stop offset="100%" stop-color="#F28C6B"/>
+    </linearGradient>
+    <style>
+      .font { font-family: "NanumGothic", "Noto Sans CJK KR", "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+      .title { font-size: 46px; font-weight: 800; fill: #FFFFFF; }
+      .subtitle { font-size: 22px; font-weight: 500; fill: #D8E6F3; }
+      .section-label { font-size: 18px; font-weight: 800; letter-spacing: 1.5px; fill: #004B8D; }
+      .section-title { font-size: 30px; font-weight: 800; fill: #162331; }
+      .body { font-size: 22px; font-weight: 500; fill: #303B46; }
+      .body-small { font-size: 20px; font-weight: 500; fill: #3A4652; }
+      .body-strong { font-size: 22px; font-weight: 750; fill: #162331; }
+      .chip { font-size: 18px; font-weight: 700; fill: #004B8D; }
+      .arrow-label { font-size: 19px; font-weight: 800; fill: #FFFFFF; }
+      .insight { font-size: 23px; font-weight: 700; fill: #162331; }
+      .muted { font-size: 17px; font-weight: 500; fill: #6F7B87; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="#F5F7FA"/>
+  <circle cx="1510" cy="110" r="210" fill="#EAF1F7"/>
+  <circle cx="80" cy="820" r="180" fill="#EEF3F7"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1600" height="170" fill="url(#headerGrad)"/>
+  <rect x="72" y="42" width="12" height="86" rx="6" fill="#F16B4E"/>
+  <text x="110" y="88" class="font title">회의록을 HTML 이메일로 전환하는 이유</text>
+  <text x="110" y="128" class="font subtitle">기록·정리·공유의 반복 작업을 줄이고, 전달력 높은 결과물로 바꾸는 업무 방식</text>
+
+  <!-- Topic Card -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="205" width="1460" height="140" rx="24" fill="#FFFFFF"/>
+  </g>
+  <text x="105" y="246" class="font section-label">주제</text>
+  <text x="105" y="292" class="font section-title">“회의 내용을 정리하는 일”과 “보기 좋게 꾸미는 일”을 분리한다</text>
+  <text x="105" y="326" class="font body-small">HTML은 표, 색상, 글자 크기, 굵기, 기울기, 도형 등 이메일의 시각 요소를 코드로 일관되게 구현하는 방식이다.</text>
+
+  <!-- Before / After Main Area -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="385" width="620" height="330" rx="24" fill="#FFFFFF"/>
+    <rect x="910" y="385" width="620" height="330" rx="24" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Before -->
+  <rect x="70" y="385" width="620" height="64" rx="24" fill="#E9EDF2"/>
+  <rect x="70" y="425" width="620" height="24" fill="#E9EDF2"/>
+  <text x="105" y="426" class="font section-title" font-size="27">기존 방식</text>
+
+  <g class="font">
+    <circle cx="118" cy="495" r="18" fill="#D9E1E8"/>
+    <text x="112" y="503" class="body-strong" font-size="20">1</text>
+    <text x="155" y="502" class="body">회의 중 손으로 빠르게 메모</text>
+
+    <circle cx="118" cy="556" r="18" fill="#D9E1E8"/>
+    <text x="112" y="564" class="body-strong" font-size="20">2</text>
+    <text x="155" y="563" class="body">기억이 사라지기 전에 다시 타이핑</text>
+
+    <circle cx="118" cy="617" r="18" fill="#D9E1E8"/>
+    <text x="112" y="625" class="body-strong" font-size="20">3</text>
+    <text x="155" y="624" class="body">고정 양식에 맞추고 보고·공유</text>
+
+    <circle cx="118" cy="678" r="18" fill="#D9E1E8"/>
+    <text x="112" y="686" class="body-strong" font-size="20">4</text>
+    <text x="155" y="685" class="body">줄바꿈·단어·간격 등 형식 수정 반복</text>
+  </g>
+
+  <!-- Center Arrow -->
+  <g>
+    <path d="M735 495 H835 L872 550 L835 605 H735 L772 550 Z" fill="url(#accentGrad)"/>
+    <text x="803" y="542" text-anchor="middle" class="font arrow-label">HTML로</text>
+    <text x="803" y="570" text-anchor="middle" class="font arrow-label">전환</text>
+  </g>
+
+  <!-- After -->
+  <rect x="910" y="385" width="620" height="64" rx="24" fill="#EAF3FA"/>
+  <rect x="910" y="425" width="620" height="24" fill="#EAF3FA"/>
+  <text x="945" y="426" class="font section-title" font-size="27">HTML 기반 방식</text>
+
+  <g class="font">
+    <rect x="945" y="479" width="132" height="42" rx="21" fill="#EAF3FA"/>
+    <text x="1011" y="506" text-anchor="middle" class="chip">내용 정리</text>
+    <text x="1100" y="506" class="body-small">회의 핵심을 제목·주제·세부내용·시사점으로 구조화</text>
+
+    <rect x="945" y="540" width="132" height="42" rx="21" fill="#EAF3FA"/>
+    <text x="1011" y="567" text-anchor="middle" class="chip">형식 적용</text>
+    <text x="1100" y="567" class="body-small">표·색상·폰트·강조 요소를 코드로 일괄 반영</text>
+
+    <rect x="945" y="601" width="132" height="42" rx="21" fill="#EAF3FA"/>
+    <text x="1011" y="628" text-anchor="middle" class="chip">즉시 공유</text>
+    <text x="1100" y="628" class="body-small">완성도 높은 이메일 형태로 빠르게 배포</text>
+
+    <rect x="945" y="662" width="132" height="42" rx="21" fill="#EAF3FA"/>
+    <text x="1011" y="689" text-anchor="middle" class="chip">반복 사용</text>
+    <text x="1100" y="689" class="body-small">템플릿을 재사용해 편집 부담과 품질 편차 축소</text>
+  </g>
+
+  <!-- Insight Footer -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="755" width="1460" height="105" rx="24" fill="#FFFFFF"/>
+  </g>
+  <rect x="70" y="755" width="18" height="105" rx="9" fill="#F16B4E"/>
+  <text x="110" y="795" class="font section-label">시사점</text>
+  <text x="110" y="835" class="font insight">사람은 회의의 의미와 판단에 집중하고, 반복적인 서식 작업은 HTML 템플릿과 AI에 맡길 수 있다.</text>
+
+  <text x="1518" y="878" text-anchor="end" class="font muted">16:9 · Editable SVG</text>
+</svg>

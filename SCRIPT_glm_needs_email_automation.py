@@ -855,23 +855,103 @@ def write_manifest(
             else:
                 for field in OUTPUT_FIELDS:
                     raw_dict.setdefault(field, "")
-            writer.writerow(raw_dict)
+
+            cleaned_dict = {}
+            for k, v in raw_dict.items():
+                if isinstance(v, str) and k == "feedback_html":
+                    cleaned_dict[k] = re.sub(r'[\r\n]+', ' ', v)
+                else:
+                    cleaned_dict[k] = v
+            writer.writerow(cleaned_dict)
 
 
-def write_xlsx_if_available(dst_path: Path, csv_path: Path) -> bool:
+def write_output_xlsx(
+    xlsx_path: Path,
+    input_fieldnames: list[str],
+    rows: list[dict[str, str]],
+    generated_rows: list[dict[str, str] | None],
+) -> bool:
     try:
-        import openpyxl  # type: ignore
-        import pandas as pd  # type: ignore
+        from openpyxl import Workbook
+        from openpyxl.styles import Alignment, Font, PatternFill, Border, Side
     except ImportError:
+        print("openpyxl 패키지가 없어 XLSX 파일을 생성하지 않습니다.")
         return False
 
-    try:
-        df = pd.read_csv(csv_path)
-        df.to_excel(dst_path, index=False)
-        return True
-    except Exception as exc:
-        print(f"XLSX 생성 실패: {exc}")
-        return False
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "니즈분석_메일안내"
+
+    output_fieldnames = list(input_fieldnames)
+    for field in OUTPUT_FIELDS:
+        if field not in output_fieldnames:
+            output_fieldnames.append(field)
+
+    header_font = Font(name="맑은 고딕", bold=True, size=10, color="FFFFFF")
+    header_fill = PatternFill(start_color="0D8F84", end_color="0D8F84", fill_type="solid")
+    header_align = Alignment(horizontal="center", vertical="center", wrap_text=True)
+    thin_border = Border(
+        left=Side(style="thin", color="E0E0E0"),
+        right=Side(style="thin", color="E0E0E0"),
+        top=Side(style="thin", color="E0E0E0"),
+        bottom=Side(style="thin", color="DAE4EC"),
+    )
+    cell_font = Font(name="맑은 고딕", size=9)
+    cell_align = Alignment(vertical="top", wrap_text=True)
+    single_line_align = Alignment(vertical="top", wrap_text=False)
+    even_fill = PatternFill(start_color="F4FAFA", end_color="F4FAFA", fill_type="solid")
+
+    for col_idx, field in enumerate(output_fieldnames, start=1):
+        cell = ws.cell(row=1, column=col_idx, value=field)
+        cell.font = header_font
+        cell.fill = header_fill
+        cell.alignment = header_align
+
+    ws.freeze_panes = "A2"
+    ws.auto_filter.ref = f"A1:{ws.cell(row=1, column=len(output_fieldnames)).column_letter}1"
+
+    for row_idx, (row, generated) in enumerate(zip(rows, generated_rows), start=2):
+        raw_dict = dict(row.get("_raw") or {})
+        if generated:
+            raw_dict.update(generated)
+        else:
+            for field in OUTPUT_FIELDS:
+                raw_dict.setdefault(field, "")
+
+        is_even = (row_idx % 2 == 0)
+
+        for col_idx, field in enumerate(output_fieldnames, start=1):
+            val = raw_dict.get(field, "")
+            if field == "feedback_html" and isinstance(val, str):
+                val = re.sub(r'[\r\n]+', ' ', val)
+
+            cell = ws.cell(row=row_idx, column=col_idx, value=val)
+            cell.font = cell_font
+            cell.border = thin_border
+            if is_even:
+                cell.fill = even_fill
+
+            if field in ("feedback_html", "feedback_html_path", "회사정보출처"):
+                cell.alignment = single_line_align
+            else:
+                cell.alignment = cell_align
+
+    for col_idx, field in enumerate(output_fieldnames, start=1):
+        col_letter = ws.cell(row=1, column=col_idx).column_letter
+        if field in ("feedback_message", "feedback_html"):
+            ws.column_dimensions[col_letter].width = 50
+        elif field in ("feedback_subject", "핵심니즈_추론", "심리상태_추론", "교육을통해얻고싶은것_추정", "주요사업"):
+            ws.column_dimensions[col_letter].width = 35
+        elif field in ("feedback_encouragement", "feedback_next_action", "추론근거", "Q3_학습희망주제"):
+            ws.column_dimensions[col_letter].width = 30
+        elif field in ("수료증이메일", "회사정보출처", "feedback_html_path"):
+            ws.column_dimensions[col_letter].width = 25
+        else:
+            ws.column_dimensions[col_letter].width = 16
+
+    wb.save(str(xlsx_path))
+    return True
+
 
 
 def parse_args() -> argparse.Namespace:
@@ -995,12 +1075,10 @@ def main() -> None:
     write_index_html(index_html_path, rows, generated_rows, preview_dir, args)
 
     try:
-        import openpyxl  # type: ignore
-        df_converted = write_xlsx_if_available(xlsx_path, dst_path)
-        if df_converted:
+        if write_output_xlsx(xlsx_path, fieldnames, rows, generated_rows):
             print(f"Saved XLSX to {xlsx_path}")
-    except Exception:
-        pass
+    except Exception as exc:
+        print(f"XLSX 생성 중 경고: {exc}")
 
     print(f"Finished! Saved CSV to {dst_path}")
     if preview_dir:
