@@ -58,18 +58,19 @@ DEFAULT_SUBJECT_PREFIX = "[HRD AI 세미나]"
 
 SYSTEM_PROMPT = """당신은 HRD/HR 부문 AI 활용 세미나를 총괄하는 전문 교육 기획자다.
 참가자의 사전 설문 및 추론 데이터(핵심 니즈, 심리 상태, 교육을 통해 얻고 싶은 점, AI 활용수준, 가장 큰 장애물 등)를 바탕으로,
-참가자 개개인의 고민과 심리 상태에 깊이 공감하고, 세미나에서 해결할 핵심 가치와 기대 효과를 안내하는 맞춤형 사전 안내 이메일 문구를 작성하라.
+참가자 개개인의 고민과 심리 상태에 깊이 공감하고, 세미나에서 해결할 핵심 가치와 기대 효과를 안내하며, 따뜻한 격려의 말을 전하는 맞춤형 사전 안내 이메일 문구를 작성하라.
 
 반드시 지켜야 할 규칙:
 1. 출력은 JSON 객체 하나만 반환한다.
-2. JSON 키는 subject, message, next_action, tone_check를 사용한다.
+2. JSON 키는 subject, message, encouragement, next_action, tone_check를 사용한다.
 3. subject는 수신자의 소속/성명과 핵심 해결과제를 명시한 신뢰감 있는 제목으로 작성한다.
 4. message는 3~5문장 (350자 이내)으로:
    - 참가자의 심리상태(예: 보안 우려, 기초역량 부족, ROI 증명 부담, 조직 설득 민감성 등)에 깊이 공감하고,
    - 핵심 니즈 및 교육을 통해 얻고자 하는 바(사례 BP, 보안 대안, 에이전트 제작, ROI 측정 등)가 세미나에서 어떻게 다뤄지는지 정중하고 명확하게 안내한다.
-5. next_action: 세미나 참석 전 사전 준비/지참 권장 사항 1~2개를 작성한다.
-6. tone_check에는 "ok" 또는 짧은 검토 메모만 넣는다.
-7. HTML 태그는 작성하지 마라. HTML은 시스템이 별도로 렌더링한다."""
+5. encouragement: 참가자의 적극적인 도전 의지와 역량 개발 노력을 진심으로 응원하고 사기를 북돋아주는 따뜻한 격려의 1~2문장(60~100자)을 작성한다.
+6. next_action: 세미나 참석 전 사전 준비/지참 권장 사항 1~2개를 작성한다.
+7. tone_check에는 "ok" 또는 짧은 검토 메모만 넣는다.
+8. HTML 태그는 작성하지 마라. HTML은 시스템이 별도로 렌더링한다."""
 
 FIELD_ALIASES = {
     "participant_id": ["번호", "participant_id", "id", "응답자id"],
@@ -96,6 +97,7 @@ REQUIRED_FIELDS = ("name", "core_needs")
 OUTPUT_FIELDS = [
     "feedback_subject",
     "feedback_message",
+    "feedback_encouragement",
     "feedback_next_action",
     "feedback_tone_check",
     "feedback_html",
@@ -354,10 +356,15 @@ def build_mock_result(row: dict[str, str], args: argparse.Namespace) -> dict[str
         f"현재 '{psychology_state}'에 깊이 공감하며, 이번 세미나에서는 이러한 우려와 부담을 명확히 해소할 수 있는 실질적 솔루션을 제공하고자 합니다. "
         f"특히 요청해주신 '{desired_outcome}'을(를) 세미나 현장에서 직접 검증하고 바로 활용하실 수 있도록 실습형 커리큘럼으로 준비하였습니다."
     )
+    encouragement = (
+        f"{name} {position}님의 적극적인 학습 열정과 실무 혁신 의지가 {company}의 성공적인 AX 전환을 이끄는 가장 든든한 동력이 될 것입니다. "
+        f"이번 세미나가 그 확실한 자신감과 계기를 드리는 시간이 되도록 최선을 다해 지원하겠습니다!"
+    )
     next_action = "세미나 참석 전 현재 사용 중인 HRD 템플릿 1개 지참 및 사전 질문 준비"
     return {
         "subject": fallback_subject(row, args),
         "message": sanitize_text(message),
+        "encouragement": sanitize_text(encouragement),
         "next_action": next_action,
         "tone_check": "ok",
     }
@@ -377,10 +384,16 @@ def generate_feedback(row: dict[str, str], args: argparse.Namespace, api_key: st
         return None
 
     payload = extract_json_object(response_text)
+    name = row.get("name") or "담당자"
+    company = row.get("company") or "소속사"
+    position = row.get("position") or ""
+    default_encouragement = f"{name} {position}님의 끊임없는 역량 개발 노력이 {company}의 성공적인 AI 전환을 이끄는 큰 동력이 될 것입니다. 이번 세미나에서 힘을 실어드리겠습니다!"
+
     if payload is None:
         return {
             "subject": fallback_subject(row, args),
             "message": sanitize_text(response_text)[:350],
+            "encouragement": sanitize_text(default_encouragement),
             "next_action": "사전 질문 및 소속사 보안 기준 사전 확인",
             "tone_check": "JSON 파싱 실패",
         }
@@ -388,6 +401,7 @@ def generate_feedback(row: dict[str, str], args: argparse.Namespace, api_key: st
     return {
         "subject": sanitize_text(payload.get("subject") or fallback_subject(row, args)),
         "message": sanitize_text(payload.get("message") or ""),
+        "encouragement": sanitize_text(payload.get("encouragement") or default_encouragement),
         "next_action": sanitize_text(payload.get("next_action") or "사전 질문 및 소속사 보안 기준 사전 확인"),
         "tone_check": sanitize_text(payload.get("tone_check") or "ok"),
     }
@@ -411,6 +425,7 @@ def render_html(row: dict[str, str], result: dict[str, str], args: argparse.Name
     desired_outcome = html.escape(row.get("desired_outcome") or "-")
     ai_level = html.escape(row.get("ai_level") or "-")
     obstacle = html.escape(row.get("obstacle") or "-")
+    encouragement = html.escape(result.get("encouragement") or "-")
 
     body_sentences = [html.escape(sentence) for sentence in re.split(r"(?<=[.!?])\s+", result["message"]) if sentence]
     body_html = "\n".join(
@@ -530,9 +545,23 @@ def render_html(row: dict[str, str], result: dict[str, str], args: argparse.Name
             </td>
           </tr>
 
+          <!-- ========== ENCOURAGEMENT CARD ========== -->
+          <tr>
+            <td style="padding:4px 36px 16px 36px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#fff9eb;border:1px solid #fce8b3;border-left:4px solid #f59e0b;">
+                <tr>
+                  <td style="padding:16px 20px;">
+                    <p style="margin:0 0 6px 0;font-size:11px;font-weight:bold;color:#b45309;letter-spacing:0.08em;font-family:{FONT};">&#10024; &#xC6B4;&#xC601;&#xBCF8;&#xBD80;&#xC758; &#xAE0D;&#xB824; &amp; &#xC751;&#xC6D0; &#xBA54;&#xC15C;&#xC9CC;</p>
+                    <p style="margin:0;font-size:14px;line-height:1.8;color:#78350f;font-weight:bold;font-family:{FONT};">{encouragement}</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
           <!-- ========== NEXT ACTION ========== -->
           <tr>
-            <td style="padding:6px 36px 20px 36px;">
+            <td style="padding:0 36px 20px 36px;">
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0d8f84;">
                 <tr>
                   <td style="padding:20px 24px;">
@@ -628,6 +657,11 @@ def write_index_html(
           <div class="card-section">
             <p class="section-label">맞춤 안내 메시지</p>
             <p class="message-text">{html.escape(generated.get("feedback_message") or "-")}</p>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">✨ 격려 &amp; 응원 메시지</p>
+            <p class="encouragement-text">{html.escape(generated.get("feedback_encouragement") or "-")}</p>
           </div>
 
           <div class="meta-grid">
@@ -747,6 +781,7 @@ def write_index_html(
     .section-label {{ font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 4px; }}
     .subject-text {{ font-size: 15px; font-weight: 600; color: #fff; }}
     .message-text {{ font-size: 14px; color: #cbd5e1; background: rgba(0,0,0,0.2); padding: 12px 14px; border-radius: 8px; border-left: 3px solid var(--accent); }}
+    .encouragement-text {{ font-size: 14px; color: #fde68a; background: rgba(245, 158, 11, 0.1); padding: 12px 14px; border-radius: 8px; border-left: 3px solid #f59e0b; font-weight: 500; }}
 
     .meta-grid {{
       display: grid;
@@ -927,6 +962,7 @@ def main() -> None:
         output_data = {
             "feedback_subject": res["subject"],
             "feedback_message": res["message"],
+            "feedback_encouragement": res["encouragement"],
             "feedback_next_action": res["next_action"],
             "feedback_tone_check": res["tone_check"],
             "feedback_html": html_content,
