@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# 바로 실행 — 프로젝트 루트에서 아래 줄을 그대로 복사해 실행하십시오.
+# python3 SCRIPT_glm_feedback_automation.py "sample_data/교육_액션플랜_데이터.csv" --mode glm --model glm-4.5-air --limit 1 --output-csv "/tmp/letsai_glm_air_sample.csv" --no-html-preview --overwrite
 # -*- coding: utf-8 -*-
 """Generate personalized HRD follow-up feedback drafts from CSV data.
 
@@ -30,8 +32,26 @@ from pathlib import Path
 from urllib import error, request
 
 
-API_URL = "https://open.bigmodel.cn/api/coding/paas/v4/chat/completions"
-DEFAULT_MODEL = "glm-4.5-air"
+def load_local_env(path: Path) -> None:
+    """Load a project-local .env without overriding OS environment variables."""
+    if not path.exists():
+        return
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
+load_local_env(Path(__file__).with_name(".env"))
+
+API_BASE_URL = os.getenv("GLM_BASE_URL", "https://api.z.ai/api/coding/paas/v4").rstrip("/")
+API_URL = f"{API_BASE_URL}/chat/completions"
+DEFAULT_MODEL = os.getenv("GLM_MODEL", "glm-4.5-air")
 REQUEST_TIMEOUT = 180
 
 DEFAULT_COURSE_NAME = "현대제철 리더십 교육 F/U"
@@ -1275,9 +1295,16 @@ def main() -> int:
         print(f"Input CSV not found: {args.input_csv}")
         return 1
 
-    api_key = os.getenv("API_KEY_ZAI", "").strip()
+    api_key = next(
+        (
+            os.getenv(name, "").strip()
+            for name in ("API_KEY_ZAI", "GLM_API_KEY", "ZAI_API_KEY")
+            if os.getenv(name, "").strip()
+        ),
+        "",
+    )
     if args.mode == "glm" and not api_key:
-        print("API_KEY_ZAI is missing. Set API_KEY_ZAI or use --mode mock.")
+        print("Z.AI API key is missing. Set API_KEY_ZAI, GLM_API_KEY, or ZAI_API_KEY, or use --mode mock.")
         return 1
 
     output_csv = args.output_csv or output_path_for(args.input_csv)
