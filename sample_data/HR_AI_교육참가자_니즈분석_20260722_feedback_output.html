@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2026 HRD 부문의 AI 활용 세미나 사전 니즈 대시보드</title>
+  <style>
+    :root {
+      --bg: #0b1320;
+      --card-bg: #132238;
+      --border: #1e3556;
+      --text: #e6f1fc;
+      --muted: #8aa4c4;
+      --accent: #00d2c8;
+      --accent-glow: rgba(0, 210, 200, 0.15);
+      --success: #10b981;
+      --pending: #f59e0b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      padding: 36px 20px;
+      line-height: 1.6;
+    }
+    .container { max-width: 1100px; margin: 0 auto; }
+    header {
+      background: linear-gradient(135deg, #132238 0%, #0d1829 100%);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 32px;
+      margin-bottom: 28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    .badge {
+      display: inline-block;
+      background: var(--accent-glow);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    h1 { font-size: 26px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .subtitle { color: var(--muted); font-size: 14px; }
+    .stats-bar {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+    .stat-item { font-size: 13px; color: var(--muted); }
+    .stat-value { font-size: 18px; font-weight: 700; color: var(--accent); margin-top: 2px; }
+
+    .grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+    .result-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .result-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+    }
+    .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; }
+    .card-name { font-size: 18px; font-weight: 700; color: #fff; }
+    .company-tag { font-size: 13px; font-weight: 500; color: var(--accent); margin-left: 8px; }
+    .card-meta { font-size: 13px; color: var(--muted); margin-top: 4px; }
+    .status {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      text-transform: uppercase;
+    }
+    .status.ok { background: rgba(16, 185, 129, 0.15); color: var(--success); border: 1px solid var(--success); }
+    .status.pending { background: rgba(245, 158, 11, 0.15); color: var(--pending); border: 1px solid var(--pending); }
+
+    .card-section { margin-bottom: 16px; }
+    .section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 4px; }
+    .subject-text { font-size: 15px; font-weight: 600; color: #fff; }
+    .message-text { font-size: 14px; color: #cbd5e1; background: rgba(0,0,0,0.2); padding: 12px 14px; border-radius: 8px; border-left: 3px solid var(--accent); }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    .detail-text { font-size: 13px; color: #94a3b8; }
+    .detail-text.bold { color: var(--accent); font-weight: 600; }
+
+    .card-actions { margin-top: 18px; display: flex; justify-content: flex-end; }
+    .action-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #0b1320;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+    .action-btn:hover { opacity: 0.9; }
+    .action-btn.disabled { background: var(--border); color: var(--muted); cursor: not-allowed; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">AI-GENERATED NEEDS DASHBOARD</span>
+      <h1>2026 HRD 부문의 AI 활용 세미나 참가자 사전 니즈 안내 대시보드</h1>
+      <p class="subtitle">참가자 핵심니즈, 심리상태, 학습희망사항을 반영한 개인화 HTML 이메일 안내문 모음</p>
+      <div class="stats-bar">
+        <div class="stat-item">전체 대상자<div class="stat-value">7명</div></div>
+        <div class="stat-item">생성 완료<div class="stat-value">7명</div></div>
+        <div class="stat-item">생성 일시<div class="stat-value">2026-07-22 09:56:13</div></div>
+      </div>
+    </header>
+
+    <div class="grid">
+      
+        <article class="result-card">
+          <div class="card-top">
+            <div>
+              <p class="card-name">이우진 <span class="company-tag">(주)와이비엠넷</span></p>
+              <p class="card-meta">인사총무 &middot; 과장 | 경력: 6년7개월</p>
+            </div>
+            <span class="status ok">ok</span>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">이메일 제목</p>
+            <p class="subject-text">[HRD AI 세미나] (주)와이비엠넷 이우진 과장님을 위한 사전 분석 및 세미나 가이드</p>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">맞춤 안내 메시지</p>
+            <p class="message-text">이우진 과장님, 사전 설문을 통해 &#x27;개인 단위의 단편적 AI 활용을 넘어 사업별·HR 기능별 활용 시나리오와 AX 교육 체계를 확보하려는 니즈&#x27;라는 핵심 니즈를 확인했습니다. 현재 &#x27;AI 활용 의지는 높지만 기초역량 부족으로 실행 자신감이 낮고, 적용 범위가 넓어 무엇부터 시작할지 불확실한 상태로 추론됨&#x27;에 깊이 공감하며, 이번 세미나에서는 이러한 우려와 부담을 명확히 해소할 수 있는 실질적 솔루션을 제공하고자 합니다. 특히 요청해주신 &#x27;사업별 AI 활용사례 벤치마크, HR 업무별 적용 우선순위, 바로 사용할 수 있는 프롬프트·도구, 사내 AX 교육 로드맵&#x27;을(를) 세미나 현장에서 직접 검증하고 바로 활용하실 수 있도록 실습형 커리큘럼으로 준비하였습니다.</p>
+          </div>
+
+          <div class="meta-grid">
+            <div>
+              <p class="section-label">🎯 핵심 니즈 (추론)</p>
+              <p class="detail-text">개인 단위의 단편적 AI 활용을 넘어 사업별·HR 기능별 활용 시나리오와 AX 교육 체계를 확보하려는 니즈</p>
+            </div>
+            <div>
+              <p class="section-label">💡 교육을 통해 얻고 싶은 것</p>
+              <p class="detail-text">사업별 AI 활용사례 벤치마크, HR 업무별 적용 우선순위, 바로 사용할 수 있는 프롬프트·도구, 사내 AX 교육 로드맵</p>
+            </div>
+            <div>
+              <p class="section-label">🧠 심리 상태 (추론)</p>
+              <p class="detail-text">AI 활용 의지는 높지만 기초역량 부족으로 실행 자신감이 낮고, 적용 범위가 넓어 무엇부터 시작할지 불확실한 상태로 추론됨</p>
+            </div>
+            <div>
+              <p class="section-label">📋 사전 준비사항 (Pre-checklist)</p>
+              <p class="detail-text bold">세미나 참석 전 현재 사용 중인 HRD 템플릿 1개 지참 및 사전 질문 준비</p>
+            </div>
+          </div>
+
+          <div class="card-actions">
+            <a class="action-btn" href="HR_AI_교육참가자_니즈분석_20260722_feedback_output_html_preview/001__주_와이비엠넷_이우진.html" target="_blank">이메일 미리보기 HTML ↗</a>
+          </div>
+        </article>
+
+        <article class="result-card">
+          <div class="card-top">
+            <div>
+              <p class="card-name">유소영 <span class="company-tag">동원산업</span></p>
+              <p class="card-meta">HRG팀 &middot; 사원 | 경력: 1년10개월</p>
+            </div>
+            <span class="status ok">ok</span>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">이메일 제목</p>
+            <p class="subject-text">[HRD AI 세미나] 동원산업 유소영 사원님을 위한 사전 분석 및 세미나 가이드</p>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">맞춤 안내 메시지</p>
+            <p class="message-text">유소영 사원님, 사전 설문을 통해 &#x27;일반적인 생성형 AI 활용을 넘어 HRD 업무에 특화된 AI 에이전트를 직접 설계·제작하고 조직에 적용하려는 니즈&#x27;라는 핵심 니즈를 확인했습니다. 현재 &#x27;실험과 도입 의지가 강하고 구체적 산출물을 원하는 적극적 상태이며, 개론 중심 교육에는 답답함을 느낄 가능성이 있음&#x27;에 깊이 공감하며, 이번 세미나에서는 이러한 우려와 부담을 명확히 해소할 수 있는 실질적 솔루션을 제공하고자 합니다. 특히 요청해주신 &#x27;교육기획·운영용 에이전트 프로토타입, 노코드·로우코드 제작법, 업무흐름 연계 방법, 조직 도입 시 운영·보안 기준&#x27;을(를) 세미나 현장에서 직접 검증하고 바로 활용하실 수 있도록 실습형 커리큘럼으로 준비하였습니다.</p>
+          </div>
+
+          <div class="meta-grid">
+            <div>
+              <p class="section-label">🎯 핵심 니즈 (추론)</p>
+              <p class="detail-text">일반적인 생성형 AI 활용을 넘어 HRD 업무에 특화된 AI 에이전트를 직접 설계·제작하고 조직에 적용하려는 니즈</p>
+            </div>
+            <div>
+              <p class="section-label">💡 교육을 통해 얻고 싶은 것</p>
+              <p class="detail-text">교육기획·운영용 에이전트 프로토타입, 노코드·로우코드 제작법, 업무흐름 연계 방법, 조직 도입 시 운영·보안 기준</p>
+            </div>
+            <div>
+              <p class="section-label">🧠 심리 상태 (추론)</p>
+              <p class="detail-text">실험과 도입 의지가 강하고 구체적 산출물을 원하는 적극적 상태이며, 개론 중심 교육에는 답답함을 느낄 가능성이 있음</p>
+            </div>
+            <div>
+              <p class="section-label">📋 사전 준비사항 (Pre-checklist)</p>
+              <p class="detail-text bold">세미나 참석 전 현재 사용 중인 HRD 템플릿 1개 지참 및 사전 질문 준비</p>
+            </div>
+          </div>
+
+          <div class="card-actions">
+            <a class="action-btn" href="HR_AI_교육참가자_니즈분석_20260722_feedback_output_html_preview/002_동원산업_유소영.html" target="_blank">이메일 미리보기 HTML ↗</a>
+          </div>
+        </article>
+
+        <article class="result-card">
+          <div class="card-top">
+            <div>
+              <p class="card-name">전재욱 <span class="company-tag">(주)도루코</span></p>
+              <p class="card-meta">HR팀 &middot; 매니저 | 경력: 3년7개월</p>
+            </div>
+            <span class="status ok">ok</span>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">이메일 제목</p>
+            <p class="subject-text">[HRD AI 세미나] (주)도루코 전재욱 매니저님을 위한 사전 분석 및 세미나 가이드</p>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">맞춤 안내 메시지</p>
+            <p class="message-text">전재욱 매니저님, 사전 설문을 통해 &#x27;보안·저작권·정확성 리스크를 통제하면서 제조기업 HRD에 적용할 수 있는 검증된 우수사례와 운영 기준을 확보하려는 니즈&#x27;라는 핵심 니즈를 확인했습니다. 현재 &#x27;도입 필요성은 인정하지만 사고 발생 책임과 내부 통제 실패를 경계하는 신중하고 위험민감한 상태로 추론됨&#x27;에 깊이 공감하며, 이번 세미나에서는 이러한 우려와 부담을 명확히 해소할 수 있는 실질적 솔루션을 제공하고자 합니다. 특히 요청해주신 &#x27;안전한 HRD 활용사례, 정보등급별 사용 기준, 할루시네이션 검증 절차, 저작권 체크리스트, 내부 설득용 도입 근거&#x27;을(를) 세미나 현장에서 직접 검증하고 바로 활용하실 수 있도록 실습형 커리큘럼으로 준비하였습니다.</p>
+          </div>
+
+          <div class="meta-grid">
+            <div>
+              <p class="section-label">🎯 핵심 니즈 (추론)</p>
+              <p class="detail-text">보안·저작권·정확성 리스크를 통제하면서 제조기업 HRD에 적용할 수 있는 검증된 우수사례와 운영 기준을 확보하려는 니즈</p>
+            </div>
+            <div>
+              <p class="section-label">💡 교육을 통해 얻고 싶은 것</p>
+              <p class="detail-text">안전한 HRD 활용사례, 정보등급별 사용 기준, 할루시네이션 검증 절차, 저작권 체크리스트, 내부 설득용 도입 근거</p>
+            </div>
+            <div>
+              <p class="section-label">🧠 심리 상태 (추론)</p>
+              <p class="detail-text">도입 필요성은 인정하지만 사고 발생 책임과 내부 통제 실패를 경계하는 신중하고 위험민감한 상태로 추론됨</p>
+            </div>
+            <div>
+              <p class="section-label">📋 사전 준비사항 (Pre-checklist)</p>
+              <p class="detail-text bold">세미나 참석 전 현재 사용 중인 HRD 템플릿 1개 지참 및 사전 질문 준비</p>
+            </div>
+          </div>
+
+          <div class="card-actions">
+            <a class="action-btn" href="HR_AI_교육참가자_니즈분석_20260722_feedback_output_html_preview/003__주_도루코_전재욱.html" target="_blank">이메일 미리보기 HTML ↗</a>
+          </div>
+        </article>
+
+        <article class="result-card">
+          <div class="card-top">
+            <div>
+              <p class="card-name">김민우 <span class="company-tag">대동</span></p>
+              <p class="card-meta">인재혁신팀 &middot; 대리 | 경력: 8개월</p>
+            </div>
+            <span class="status ok">ok</span>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">이메일 제목</p>
+            <p class="subject-text">[HRD AI 세미나] 대동 김민우 대리님을 위한 사전 분석 및 세미나 가이드</p>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">맞춤 안내 메시지</p>
+            <p class="message-text">김민우 대리님, 사전 설문을 통해 &#x27;생성형 AI를 교육개발 프로세스에 적용하는 표준 방법과 성과를 수치로 증명할 수 있는 소규모 실증 모델이 필요한 상태&#x27;라는 핵심 니즈를 확인했습니다. 현재 &#x27;HRD 경력이 짧아 빠르게 전문성을 확보하고 성과를 입증해야 한다는 부담과 실행 불확실성이 함께 있는 것으로 추론됨&#x27;에 깊이 공감하며, 이번 세미나에서는 이러한 우려와 부담을 명확히 해소할 수 있는 실질적 솔루션을 제공하고자 합니다. 특히 요청해주신 &#x27;AI 기반 교수설계 템플릿, 콘텐츠 개발 실습, 시간·비용 절감 측정법, 교육효과 지표, 파일럿 과제 설계안&#x27;을(를) 세미나 현장에서 직접 검증하고 바로 활용하실 수 있도록 실습형 커리큘럼으로 준비하였습니다.</p>
+          </div>
+
+          <div class="meta-grid">
+            <div>
+              <p class="section-label">🎯 핵심 니즈 (추론)</p>
+              <p class="detail-text">생성형 AI를 교육개발 프로세스에 적용하는 표준 방법과 성과를 수치로 증명할 수 있는 소규모 실증 모델이 필요한 상태</p>
+            </div>
+            <div>
+              <p class="section-label">💡 교육을 통해 얻고 싶은 것</p>
+              <p class="detail-text">AI 기반 교수설계 템플릿, 콘텐츠 개발 실습, 시간·비용 절감 측정법, 교육효과 지표, 파일럿 과제 설계안</p>
+            </div>
+            <div>
+              <p class="section-label">🧠 심리 상태 (추론)</p>
+              <p class="detail-text">HRD 경력이 짧아 빠르게 전문성을 확보하고 성과를 입증해야 한다는 부담과 실행 불확실성이 함께 있는 것으로 추론됨</p>
+            </div>
+            <div>
+              <p class="section-label">📋 사전 준비사항 (Pre-checklist)</p>
+              <p class="detail-text bold">세미나 참석 전 현재 사용 중인 HRD 템플릿 1개 지참 및 사전 질문 준비</p>
+            </div>
+          </div>
+
+          <div class="card-actions">
+            <a class="action-btn" href="HR_AI_교육참가자_니즈분석_20260722_feedback_output_html_preview/004_대동_김민우.html" target="_blank">이메일 미리보기 HTML ↗</a>
+          </div>
+        </article>
+
+        <article class="result-card">
+          <div class="card-top">
+            <div>
+              <p class="card-name">강태우 <span class="company-tag">DB생명보험</span></p>
+              <p class="card-meta">인사팀 &middot; 수석 | 경력: 7년6개월</p>
+            </div>
+            <span class="status ok">ok</span>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">이메일 제목</p>
+            <p class="subject-text">[HRD AI 세미나] DB생명보험 강태우 수석님을 위한 사전 분석 및 세미나 가이드</p>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">맞춤 안내 메시지</p>
+            <p class="message-text">강태우 수석님, 사전 설문을 통해 &#x27;규제가 강한 보험업 환경에서도 실제로 작동하는 교육기획·운영 사례와 재사용 가능한 업무절차를 확보하려는 니즈&#x27;라는 핵심 니즈를 확인했습니다. 현재 &#x27;경험이 많은 실무자로서 추상적 이론보다 검증된 실행 사례를 선호하며, 도입 효과와 현실 적용 가능성을 냉정하게 확인하려는 상태로 추론됨&#x27;에 깊이 공감하며, 이번 세미나에서는 이러한 우려와 부담을 명확히 해소할 수 있는 실질적 솔루션을 제공하고자 합니다. 특히 요청해주신 &#x27;교육기획부터 운영·평가까지의 End-to-End 사례, 실무 템플릿, 금융권 보안 고려사항, 적용 전후 효과 데이터&#x27;을(를) 세미나 현장에서 직접 검증하고 바로 활용하실 수 있도록 실습형 커리큘럼으로 준비하였습니다.</p>
+          </div>
+
+          <div class="meta-grid">
+            <div>
+              <p class="section-label">🎯 핵심 니즈 (추론)</p>
+              <p class="detail-text">규제가 강한 보험업 환경에서도 실제로 작동하는 교육기획·운영 사례와 재사용 가능한 업무절차를 확보하려는 니즈</p>
+            </div>
+            <div>
+              <p class="section-label">💡 교육을 통해 얻고 싶은 것</p>
+              <p class="detail-text">교육기획부터 운영·평가까지의 End-to-End 사례, 실무 템플릿, 금융권 보안 고려사항, 적용 전후 효과 데이터</p>
+            </div>
+            <div>
+              <p class="section-label">🧠 심리 상태 (추론)</p>
+              <p class="detail-text">경험이 많은 실무자로서 추상적 이론보다 검증된 실행 사례를 선호하며, 도입 효과와 현실 적용 가능성을 냉정하게 확인하려는 상태로 추론됨</p>
+            </div>
+            <div>
+              <p class="section-label">📋 사전 준비사항 (Pre-checklist)</p>
+              <p class="detail-text bold">세미나 참석 전 현재 사용 중인 HRD 템플릿 1개 지참 및 사전 질문 준비</p>
+            </div>
+          </div>
+
+          <div class="card-actions">
+            <a class="action-btn" href="HR_AI_교육참가자_니즈분석_20260722_feedback_output_html_preview/005_DB생명보험_강태우.html" target="_blank">이메일 미리보기 HTML ↗</a>
+          </div>
+        </article>
+
+        <article class="result-card">
+          <div class="card-top">
+            <div>
+              <p class="card-name">김효민 <span class="company-tag">부천도시공사</span></p>
+              <p class="card-meta">경영지원부 &middot; 주임 | 경력: 2년4개월</p>
+            </div>
+            <span class="status ok">ok</span>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">이메일 제목</p>
+            <p class="subject-text">[HRD AI 세미나] 부천도시공사 김효민 주임님을 위한 사전 분석 및 세미나 가이드</p>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">맞춤 안내 메시지</p>
+            <p class="message-text">김효민 주임님, 사전 설문을 통해 &#x27;AI 숙련도와 수용성이 다른 학습자들을 동시에 포용할 수 있는 수준별 교육설계와 변화관리 방법이 핵심 니즈&#x27;라는 핵심 니즈를 확인했습니다. 현재 &#x27;학습자 불만과 교육 실패 가능성을 우려하며 참여자의 감정과 만족도를 세심하게 관리하려는 책임감·부담이 큰 상태로 추론됨&#x27;에 깊이 공감하며, 이번 세미나에서는 이러한 우려와 부담을 명확히 해소할 수 있는 실질적 솔루션을 제공하고자 합니다. 특히 요청해주신 &#x27;사전 진단도구, 초급·중급 분화 커리큘럼, 거부감 완화 메시지, 실습 난이도 조절법, 보충학습·코칭 운영안&#x27;을(를) 세미나 현장에서 직접 검증하고 바로 활용하실 수 있도록 실습형 커리큘럼으로 준비하였습니다.</p>
+          </div>
+
+          <div class="meta-grid">
+            <div>
+              <p class="section-label">🎯 핵심 니즈 (추론)</p>
+              <p class="detail-text">AI 숙련도와 수용성이 다른 학습자들을 동시에 포용할 수 있는 수준별 교육설계와 변화관리 방법이 핵심 니즈</p>
+            </div>
+            <div>
+              <p class="section-label">💡 교육을 통해 얻고 싶은 것</p>
+              <p class="detail-text">사전 진단도구, 초급·중급 분화 커리큘럼, 거부감 완화 메시지, 실습 난이도 조절법, 보충학습·코칭 운영안</p>
+            </div>
+            <div>
+              <p class="section-label">🧠 심리 상태 (추론)</p>
+              <p class="detail-text">학습자 불만과 교육 실패 가능성을 우려하며 참여자의 감정과 만족도를 세심하게 관리하려는 책임감·부담이 큰 상태로 추론됨</p>
+            </div>
+            <div>
+              <p class="section-label">📋 사전 준비사항 (Pre-checklist)</p>
+              <p class="detail-text bold">세미나 참석 전 현재 사용 중인 HRD 템플릿 1개 지참 및 사전 질문 준비</p>
+            </div>
+          </div>
+
+          <div class="card-actions">
+            <a class="action-btn" href="HR_AI_교육참가자_니즈분석_20260722_feedback_output_html_preview/006_부천도시공사_김효민.html" target="_blank">이메일 미리보기 HTML ↗</a>
+          </div>
+        </article>
+
+        <article class="result-card">
+          <div class="card-top">
+            <div>
+              <p class="card-name">주용현 <span class="company-tag">삼표시멘트</span></p>
+              <p class="card-meta">인사팀 &middot; 책임 | 경력: 1년</p>
+            </div>
+            <span class="status ok">ok</span>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">이메일 제목</p>
+            <p class="subject-text">[HRD AI 세미나] 삼표시멘트 주용현 책임님을 위한 사전 분석 및 세미나 가이드</p>
+          </div>
+
+          <div class="card-section">
+            <p class="section-label">맞춤 안내 메시지</p>
+            <p class="message-text">주용현 책임님, 사전 설문을 통해 &#x27;ChatGPT 사용 제한을 우회하는 것이 아니라 회사 보안정책을 준수하면서 교육 진행·안내·평가를 자동화할 수 있는 대안 확보가 핵심 니즈&#x27;라는 핵심 니즈를 확인했습니다. 현재 &#x27;AI 활용 의지는 있으나 내부 규정 때문에 실행이 막혀 답답함을 느끼며, 동시에 보안 사고를 피하려는 제약 인식과 신중함이 큰 상태로 추론됨&#x27;에 깊이 공감하며, 이번 세미나에서는 이러한 우려와 부담을 명확히 해소할 수 있는 실질적 솔루션을 제공하고자 합니다. 특히 요청해주신 &#x27;기업용·폐쇄형·온프레미스 AI 대안 비교, 민감정보 비식별화 방법, 허용 가능한 자동화 예시, 내부 승인용 보안 체크리스트&#x27;을(를) 세미나 현장에서 직접 검증하고 바로 활용하실 수 있도록 실습형 커리큘럼으로 준비하였습니다.</p>
+          </div>
+
+          <div class="meta-grid">
+            <div>
+              <p class="section-label">🎯 핵심 니즈 (추론)</p>
+              <p class="detail-text">ChatGPT 사용 제한을 우회하는 것이 아니라 회사 보안정책을 준수하면서 교육 진행·안내·평가를 자동화할 수 있는 대안 확보가 핵심 니즈</p>
+            </div>
+            <div>
+              <p class="section-label">💡 교육을 통해 얻고 싶은 것</p>
+              <p class="detail-text">기업용·폐쇄형·온프레미스 AI 대안 비교, 민감정보 비식별화 방법, 허용 가능한 자동화 예시, 내부 승인용 보안 체크리스트</p>
+            </div>
+            <div>
+              <p class="section-label">🧠 심리 상태 (추론)</p>
+              <p class="detail-text">AI 활용 의지는 있으나 내부 규정 때문에 실행이 막혀 답답함을 느끼며, 동시에 보안 사고를 피하려는 제약 인식과 신중함이 큰 상태로 추론됨</p>
+            </div>
+            <div>
+              <p class="section-label">📋 사전 준비사항 (Pre-checklist)</p>
+              <p class="detail-text bold">세미나 참석 전 현재 사용 중인 HRD 템플릿 1개 지참 및 사전 질문 준비</p>
+            </div>
+          </div>
+
+          <div class="card-actions">
+            <a class="action-btn" href="HR_AI_교육참가자_니즈분석_20260722_feedback_output_html_preview/007_삼표시멘트_주용현.html" target="_blank">이메일 미리보기 HTML ↗</a>
+          </div>
+        </article>
+
+    </div>
+  </div>
+</body>
+</html>
